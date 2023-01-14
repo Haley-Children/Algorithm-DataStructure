@@ -42,6 +42,24 @@ class LinkedList {
 		System.out.println(n.data);
 	}
 
+	// 중복값 삭제 메서드
+	void removeDups() {
+		Node n = header;
+
+		while (n.next != null) {
+			Node r = n;
+			while (r.next != null) {
+				if (n.data == r.next.data) {
+					r.next = r.next.next;
+				} else {
+					r = r.next;
+				}
+			}
+			n = n.next;
+		}
+
+	}
+
 	static class Node {
 
 		int data;
