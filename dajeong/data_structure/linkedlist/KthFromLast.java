@@ -6,6 +6,12 @@ package linkedlist;
  *
  * 방법 1)
  * LinkedList를 처음부터 순회하여 전체 길이(len)를 구하게 된다면, k=n일 때 앞에서 (len - n + 1)번째 숫자임을 알 수 있음
+ *
+ * 방법 2)
+ * 재귀 호출  - 공간 복잡도(스택 이용): O(N), 시간 복잡도: O(N)
+ *
+ * 방법 3)
+ * 투 포인터 이용 - 공간 복잡도: O(1), 시간 복잡도: O(N)
  */
 
 import linkedlist.LinkedList.Node;
@@ -13,6 +19,7 @@ import linkedlist.LinkedList.Node;
 class LinkedListB extends LinkedList {
 
 	// 쉬운 풀이
+	@Override
 	public Node kthFromLast(Node first, int k) {
 		Node n = first;
 		int total = 1;
@@ -32,6 +39,7 @@ class LinkedListB extends LinkedList {
 
 	// 재귀 호출 이용
 	// -> 재귀로 마지막 노드 바로 뒤까지 (null) 호출한 후, count++ 해나가며 k와 비교
+	@Override
 	public int kthFromLastRecur(Node first, int k) {
 		// base condition
 		if (first == null) {
@@ -51,6 +59,7 @@ class LinkedListB extends LinkedList {
 	// -> 주소 전달을 위해 count(포인터 역할)를 전달하여 구현함.
 
 	// 공간 복잡도: O(N) 시간 복잡도: O(2N) -> O(N)
+	@Override
 	public Node kthNodeFromLastRecur(Node first, int k, Reference r) {
 		// base condition
 		if (first == null) {
@@ -69,6 +78,7 @@ class LinkedListB extends LinkedList {
 	// 포인터 2개 이용! (아이디어가 신기하다)
 	// 별도의 버퍼를 사용하지 않음
 	// 공간 복잡도: O(1), 시간 복잡도: O(N)
+	@Override
 	public Node kthNodeToLastPointer(Node first, int k) {
 		Node p1 = first;
 		Node p2 = first;
@@ -93,7 +103,7 @@ class Reference {
 }
 
 
-public class kthFromLast {
+public class KthFromLast {
 
 	public static void main(String[] args) {
 		LinkedList ll = new LinkedListB();
