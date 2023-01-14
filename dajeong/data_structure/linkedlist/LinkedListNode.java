@@ -96,6 +96,11 @@ class LinkedList {
 		return 0;
 	}
 
+	Node partition(Node n, int x) {
+		System.out.println("Partition - LinkedListD class에서 구현. (재귀호출 이용. 추천 풀이)");
+		return null;
+	}
+
 
 
 }
