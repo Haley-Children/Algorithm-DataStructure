@@ -17,11 +17,9 @@ package linkedlist;
  * 시간복잡도: O(N^2)
  */
 
-public class RemoveDups extends LinkedList {
+class LinkedListA extends LinkedList {
 
-	// 중복값 삭제 메서드 (버퍼x)
 	// 공간복잡도: O(1) 시간복잡도: O(N^2)
-	@Override
 	void removeDups() {
 		Node n = header;
 
@@ -39,9 +37,12 @@ public class RemoveDups extends LinkedList {
 			n = n.next;
 		}
 	}
+}
+
+public class RemoveDups {
 
 	public static void main(String[] args) {
-		LinkedList ll = new LinkedList();
+		LinkedList ll = new LinkedListA();
 		ll.append(2);
 		ll.append(2);
 		ll.append(3);

@@ -12,6 +12,10 @@ class LinkedList {
 		header = new Node();
 	}
 
+	public Node getHeader() {
+		return header;
+	}
+
 	static class Node {
 
 		int data;
@@ -49,7 +53,17 @@ class LinkedList {
 	}
 
 	void removeDups() {
-		// RemoveDups class에서 구현
+		System.out.println("LinkedListA class 에서 구현");
+	}
+
+	Node kthFromLast(Node first, int k) {
+		System.out.println("LinkedListB class 에서 구현. (쉬운 풀이)");
+		return null;
+	}
+
+	int kthFromLastRecur(Node first, int k) {
+		System.out.println("LinkedListB class 에서 구현. (재귀호출 이용. 추천 풀이)");
+		return 0;
 	}
 }
 
