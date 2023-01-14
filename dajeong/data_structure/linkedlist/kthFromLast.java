@@ -30,21 +30,66 @@ class LinkedListB extends LinkedList {
 		return n;
 	}
 
-	// 재귀 호출 이용 (추천 풀이)
+	// 재귀 호출 이용
 	// -> 재귀로 마지막 노드 바로 뒤까지 (null) 호출한 후, count++ 해나가며 k와 비교
 	public int kthFromLastRecur(Node first, int k) {
-		Node n = first;
 		// base condition
-		if (n == null) {
+		if (first == null) {
 			return 0;
 		}
 
-		int count = kthFromLastRecur(n.next, k) + 1;
+		int count = kthFromLastRecur(first.next, k) + 1;
 		if (count == k) {
-			System.out.println(k + "th to last node is " + n.data);
+			System.out.println(k + "th to last node is " + first.data);
 		}
 		return count;
 	}
+
+
+	// java에서는 하나만 반환할 수 있다.
+	// c++는 pass by reference 방식이므로 자동으로 객체의 주소를 알 수 있는데 java는 그렇지 않으므로 Node를 반환하기 위해 Reference (객체의 주소)를 직접 전달해야 함.
+	// -> 주소 전달을 위해 count(포인터 역할)를 전달하여 구현함.
+
+	// 공간 복잡도: O(N) 시간 복잡도: O(2N) -> O(N)
+	public Node kthNodeFromLastRecur(Node first, int k, Reference r) {
+		// base condition
+		if (first == null) {
+			return null;
+		}
+
+		Node found = kthNodeFromLastRecur(first.next, k, r);
+		r.count++;
+
+		if (r.count == k) {
+			return first;
+		}
+		return found;
+	}
+
+	// 포인터 2개 이용! (아이디어가 신기하다)
+	// 별도의 버퍼를 사용하지 않음
+	// 공간 복잡도: O(1), 시간 복잡도: O(N)
+	public Node kthNodeToLastPointer(Node first, int k) {
+		Node p1 = first;
+		Node p2 = first;
+
+		for (int i = 0; i < k; i++) {
+			if (p1 == null) return null; // 뒤에서부터 k번째가 없기 때문에 종료
+			p1 = p1.next;
+		}
+
+		// 두 개의 포인터를 동시에 움직임
+		while (p1 != null) {
+			p1 = p1.next;
+			p2 = p2.next;
+		}
+		return p2;
+	}
+}
+
+class Reference {
+
+	public int count = 0;
 }
 
 
@@ -60,15 +105,30 @@ public class kthFromLast {
 		ll.append(1);
 		Node first = ll.getHeader();
 
-		int k = 5;
+		int k = 2;
 
-		/* 첫번 째 풀이
+		/* 완전 탐색 풀이
 		 * Node kth = ll.kthFromLast(first, k);
+		 * ll.retrieve();
 		 * System.out.println("Last k(" + k + ")th data is " + kth.data);
 		 */
 
+		/* 재귀 이용 풀이
+		 * ll.retrieve();
+		 * ll.kthFromLastRecur(first, k);
+		 */
+
+		/* 재귀 이용, Node 반환 풀이
+		Reference r = new Reference();
 		ll.retrieve();
-		// 재귀 이용 풀이
-		ll.kthFromLastRecur(first, k);
+		Node found = ll.kthNodeFromLastRecur(first, k, r);
+		System.out.println(found.data);
+
+		 */
+
+		// 포인터 이용 풀이
+		ll.retrieve();
+		Node found = ll.kthNodeToLastPointer(first, k);
+		System.out.println(found.data);
 	}
 }
