@@ -17,7 +17,28 @@ package linkedlist;
  * 시간복잡도: O(N^2)
  */
 
-public class RemoveDuplicatedValue {
+public class RemoveDups extends LinkedList {
+
+	// 중복값 삭제 메서드 (버퍼x)
+	// 공간복잡도: O(1) 시간복잡도: O(N^2)
+	@Override
+	void removeDups() {
+		Node n = header;
+
+		// 마지막 node가 중복된 LinkedList일 경우 nullpointException이 발생하게 되므로 n!=null 조건 추가
+		// 마지막 node 삭제하고 null로 가리키게 된다면, n = n.next 실행 후 다시 while문으로 들어올 때 nullpointException이 발생하게 됨
+		while (n != null && n.next != null) {
+			Node r = n;
+			while (r.next != null) {
+				if (n.data == r.next.data) {
+					r.next = r.next.next;
+				} else {
+					r = r.next;
+				}
+			}
+			n = n.next;
+		}
+	}
 
 	public static void main(String[] args) {
 		LinkedList ll = new LinkedList();
