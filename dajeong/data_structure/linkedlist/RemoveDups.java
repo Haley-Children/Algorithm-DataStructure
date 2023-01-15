@@ -20,6 +20,7 @@ package linkedlist;
 class LinkedListA extends LinkedList {
 
 	// 공간복잡도: O(1) 시간복잡도: O(N^2)
+	@Override
 	void removeDups() {
 		Node n = header;
 

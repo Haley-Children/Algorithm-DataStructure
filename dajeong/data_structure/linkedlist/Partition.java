@@ -8,10 +8,9 @@ package linkedlist;
 
 import linkedlist.LinkedList.Node;
 
-class LinkedListD extends LinkedList {
+public class Partition {
 
-	@Override
-	Node partition(Node n, int x) {
+	private static Node partition(Node n, int x) {
 		Node s1 = null;
 		Node e1 = null;
 		Node s2 = null;
@@ -45,12 +44,9 @@ class LinkedListD extends LinkedList {
 		e1.next = s2;
 		return s1;
 	}
-}
-
-public class Partition {
 
 	public static void main(String[] args) {
-		LinkedList ll = new LinkedListD();
+		LinkedList ll = new LinkedList();
 		ll.append(7);
 		ll.append(2);
 		ll.append(8);
@@ -58,7 +54,7 @@ public class Partition {
 		ll.append(3);
 		ll.append(4);
 		ll.retrieve();
-		ll.partition(ll.get(1), 5);
+		partition(ll.get(1), 5);
 		Node n = ll.getHeader();
 		while (n.next != null) {
 			System.out.print(n.data + "-> ");
