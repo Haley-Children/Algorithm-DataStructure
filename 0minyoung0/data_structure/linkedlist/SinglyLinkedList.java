@@ -3,11 +3,9 @@
 class Node {
 	int data;
 	Node next = null;
-	
 	Node(int d) { // 노드를 생성할 때 data
 		this.data = d;
 	}
-	
 	void append(int d) { // boolean 타입으로 성공, 실패 확인하는게 더 일반적
 		Node end = new Node(d); // 추가할 노드
 		Node n = this;
@@ -16,7 +14,6 @@ class Node {
 		}
 		n.next = end; // 마지막 노드의 next에 새로운 노드(end)
 	}
-	
 	void delete(int d) { // 현재 구조에서는 첫 번째 노드를 지울 수 없음
 		Node n = this; // 삭제할 값(d)을 찾기 위한 임의의 포인터(n)
 		while (n.next != null) { // 마지막에서 두번째 노드까지 돌면서
@@ -27,7 +24,6 @@ class Node {
 			}
 		}
 	}
-	
 	void retrieve() { // linked list를 순회하면서 데이터를 출력
 		Node n = this;
 		while (n.next != null) { // 마지막에서 두번째 노드까지 돌면서
