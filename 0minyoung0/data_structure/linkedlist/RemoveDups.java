@@ -1,18 +1,15 @@
 // 정렬되어 있지 않은 linked list의 중복되는 값을 제거
 // https://www.youtube.com/watch?v=Ce4baygLMz0
 // LinkedList 클래스안에 removeDups() 내부함수로 선언
+class Node {
+	int data;
+	Node next = null;
+}
 class LinkedList {
 	Node header;
-	
-	static class Node {
-		int data;
-		Node next = null;
-	}
-	
 	LinkedList() {
 		header = new Node();
 	}
-	
 	void append(int d) {
 		Node end = new Node();
 		end.data = d;
@@ -22,18 +19,6 @@ class LinkedList {
 		}
 		n.next = end;
 	}
-	
-	void delete(int d) {
-		Node n = header;
-		while (n.next != null) {
-			if (n.next.data == d) {
-				n.next = n.next.next;
-			} else {
-				n = n.next;
-			}
-		}
-	}
-	
 	void retrieve() {
 		Node n = header.next;
 		while (n.next != null) {
@@ -42,7 +27,6 @@ class LinkedList {
 		}
 		System.out.println(n.data);
 	}
-	
 	void removeDups() {
 		Node n = header;
 		while (n != null && n.next != null) { // 마지막 두 노드가 중복인 경우를 고려하여 n != null 조건이 필요함
