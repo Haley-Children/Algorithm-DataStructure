@@ -20,6 +20,13 @@ class LinkedList {
 
 		int data;
 		Node next = null;
+
+		public Node(int data) {
+			this.data = data;
+		}
+
+		public Node() {
+		}
 	}
 
 	// 시간 복잡도: O(N)
@@ -68,40 +75,6 @@ class LinkedList {
 	void removeDups() {
 		System.out.println("RemoveDups - LinkedListA class에서 구현");
 	}
-
-	boolean deleteNode(Node n) {
-		System.out.println("DeleteNode - LinkedListC class에서 구현");
-		return true;
-	}
-
-	// 공간 복잡도: O(N) 시간 복잡도: O(2N) -> O(N)
-	Node kthNodeFromLastRecur(Node first, int k, Reference r) {
-		System.out.println("KthFromLast - LinkedListB class에서 구현. (재귀호출 이용, Node 반환을 위해 Reference 전달)");
-		return null;
-	}
-
-	// 공간 복잡도: O(1), 시간 복잡도: O(N)
-	public Node kthNodeToLastPointer(Node first, int k) {
-		System.out.println("KthFromLast - LinkedListB class에서 구현. (별도의 버퍼 공간 사용하지 않는 풀이)");
-		return null;
-	}
-
-	Node kthFromLast(Node first, int k) {
-		System.out.println("KthFromLast - LinkedListB class에서 구현. (쉬운 풀이)");
-		return null;
-	}
-
-	int kthFromLastRecur(Node first, int k) {
-		System.out.println("KthFromLast - LinkedListB class에서 구현. (재귀호출 이용. 추천 풀이)");
-		return 0;
-	}
-
-	Node partition(Node n, int x) {
-		System.out.println("Partition - LinkedListD class에서 구현. (재귀호출 이용. 추천 풀이)");
-		return null;
-	}
-
-
 
 }
 
