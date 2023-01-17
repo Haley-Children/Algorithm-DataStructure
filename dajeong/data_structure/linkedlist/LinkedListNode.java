@@ -30,8 +30,7 @@ class LinkedList {
 
 		public Node get(int k) {
 			Node n = this;
-			if (k == 1) return n;
-			for (int i = 2; i <= k; i++) {
+			for (int i = 1; i <= k; i++) {
 				n = n.next;
 			}
 			return n;
