@@ -27,3 +27,9 @@
 
 ## [Linked List 회문찾기(Palindrome) in Java](https://youtu.be/34zpNdrgnpA)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/linkedlist/IsPalindrome.java)
+
+## [Linked List 교차점찾기 in Java](https://youtu.be/dk4oFGJx3ps)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/linkedlist/GetIntersection.java)
+
+## [Linked List 루프찾기](https://youtu.be/AWWxMl9-8CY)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/linkedlist/FindLoop.java)
