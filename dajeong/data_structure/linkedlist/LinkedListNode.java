@@ -27,6 +27,34 @@ class LinkedList {
 
 		public Node() {
 		}
+
+		public Node get(int k) {
+			Node n = this;
+			for (int i = 1; i <= k; i++) {
+				n = n.next;
+			}
+			return n;
+		}
+
+		public Node addNext(int i) {
+			Node n = new Node(i);
+			this.next = n;
+			return n;
+		}
+
+		public Node addNext(Node n) {
+			this.next = n;
+			return n;
+		}
+
+		public void print() {
+			Node n = this;
+			while (n.next != null) {
+				System.out.print(n.data + " -> ");
+				n = n.next;
+			}
+			System.out.println(n.data);
+		}
 	}
 
 	// 시간 복잡도: O(N)

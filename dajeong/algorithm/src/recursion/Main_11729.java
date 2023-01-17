@@ -26,9 +26,9 @@ public class Main_11729 {
 			cnt++;
 			return;
 		}
-		recur(a, 6-a-b, n-1);
-		sb.append(a).append(" ").append(b).append("\n");
-		cnt++;
-		recur(6-a-b, b, n-1);
+		recur(a, 6-a-b, n-1); // n-1개를 출발지, 목적지가 아닌 장소로 옮겨놓기
+		sb.append(a).append(" ").append(b).append("\n"); // 하나 옮기기
+		cnt++; // 한 개 이동 횟수 = 1
+		recur(6-a-b, b, n-1); // n-1을 목적지로 옮기기
 	}
 }
