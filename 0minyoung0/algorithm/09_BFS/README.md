@@ -14,3 +14,6 @@
 
 ## [BOJ 1697: 숨바꼭질](https://www.acmicpc.net/problem/1697)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj1697.java)
+
+## [BOJ 1012: 유기농 배추](https://www.acmicpc.net/problem/1012)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj1012.java)
