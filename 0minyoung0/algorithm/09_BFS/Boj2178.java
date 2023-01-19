@@ -1,4 +1,4 @@
-// boj 2178¹ø: ¹Ì·Î Å½»ö
+// boj 2178
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

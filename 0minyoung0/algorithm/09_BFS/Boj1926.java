@@ -1,4 +1,4 @@
-// boj 1926¹ø: ±×¸²
+// boj 1926
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
