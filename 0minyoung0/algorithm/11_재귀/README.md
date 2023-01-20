@@ -17,3 +17,9 @@
 
 ## [BOJ 2630: 색종이 만들기](https://www.acmicpc.net/problem/2630)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/11_재귀/Boj2630.java)
+
+## [BOJ 1992: 쿼드트리](https://www.acmicpc.net/problem/1992)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/11_재귀/Boj1992.java)
+
+## [BOJ 2447: 별 찍기 - 10](https://www.acmicpc.net/problem/2447)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/11_재귀/Boj2447.java)

@@ -17,3 +17,15 @@
 
 ## [BOJ 1012: 유기농 배추](https://www.acmicpc.net/problem/1012)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj1012.java)
+
+## [BOJ 10026: 적록색약](https://www.acmicpc.net/problem/10026)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj10026.java)
+
+## [BOJ 7569: 토마토](https://www.acmicpc.net/problem/7569)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj7569.java)
+
+## [BOJ 7562: 나이트의 이동](https://www.acmicpc.net/problem/7562)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj7562.java)
+
+## [BOJ 5427: 불](https://www.acmicpc.net/problem/5427)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj5427.java)
