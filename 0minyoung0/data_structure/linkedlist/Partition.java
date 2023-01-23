@@ -1,5 +1,7 @@
 // Linked List 값에 따라 나누기 in Java
 // https://www.youtube.com/watch?v=xufv1LUy42E
+// LinkedList에 있는 노드들을 입력 받은 값을 기준으로
+// 작은 노드는 왼쪽으로, 크거나 같은 노드는 오른쪽으로 나누는 알고리즘을 설명하시오.
 class Node {
 	int data;
 	Node next = null;
@@ -68,7 +70,8 @@ public class Partition {
 		}
 		System.out.println(n2.data); // 4 -> 3 -> 2 -> 7 -> 8 -> 5
 	}
-	// solution1
+	// solution1 : 포인터 4개를 사용한 방법
+	// s1과 e1은 왼쪽 리스트, s2와 e2는 오른쪽 리스트의 처음과 끝을 나타낸다.
 	private static Node Partition1(Node n, int x){
 		Node s1 = null;
 		Node e1 = null;
@@ -103,7 +106,8 @@ public class Partition {
 		e1.next = s2;
 		return s1;
 	}
-	// solution2
+	// solution2 :  빈 리스트의 앞에 작은 값을 추가하면서 head 포인터를
+	// 				큰값을 뒤에 추가하면서 tail 포인터를 위치시킨다.
 	private static Node Partition2(Node n, int x){
 		Node head = n;
 		Node tail = n;
