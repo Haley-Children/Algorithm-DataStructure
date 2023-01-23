@@ -1,3 +1,5 @@
+// Stack 구현하기 in Java
+// https://youtu.be/whVUYv0Leg0
 import java.util.EmptyStackException;
 
 class Stack<T>{ // 제네릭 타입으로 선언

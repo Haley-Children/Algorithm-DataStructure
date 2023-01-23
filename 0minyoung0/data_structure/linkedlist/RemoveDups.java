@@ -1,6 +1,5 @@
-// Á¤·ÄµÇ¾î ÀÖÁö ¾ÊÀº linked listÀÇ Áßº¹µÇ´Â °ªÀ» Á¦°Å
+// Linked List ì¤‘ë³µê°’ ì‚­ì œ in Java
 // https://www.youtube.com/watch?v=Ce4baygLMz0
-// LinkedList Å¬·¡½º¾È¿¡ removeDups() ³»ºÎÇÔ¼ö·Î ¼±¾ð
 class Node {
 	int data;
 	Node next = null;
@@ -29,9 +28,9 @@ class LinkedList {
 	}
 	void removeDups() {
 		Node n = header;
-		while (n != null && n.next != null) { // ¸¶Áö¸· µÎ ³ëµå°¡ Áßº¹ÀÎ °æ¿ì¸¦ °í·ÁÇÏ¿© n != null Á¶°ÇÀÌ ÇÊ¿äÇÔ
-			Node r = n; // ·¯³ÊÀÇ ½ÃÀÛ À§Ä¡
-			while (r.next != null) { // ·¯³Ê´Â ¸¶Áö¸·¿¡¼­ µÎ ¹øÂ° ³ëµå±îÁö °¨
+		while (n != null && n.next != null) { 
+			Node r = n; 
+			while (r.next != null) { 
 				if (n.data == r.next.data) {
 					r.next = r.next.next;
 				} else {

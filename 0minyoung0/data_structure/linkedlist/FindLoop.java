@@ -1,3 +1,5 @@
+// Linked List 루프찾기
+// https://youtu.be/AWWxMl9-8CY
 import java.io.IOException;
 
 class Node {

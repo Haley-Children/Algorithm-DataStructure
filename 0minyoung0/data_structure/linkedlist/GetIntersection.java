@@ -1,3 +1,5 @@
+// Linked List 교차점찾기 in Java
+// https://youtu.be/dk4oFGJx3ps
 import java.io.IOException;
 
 class Node {
