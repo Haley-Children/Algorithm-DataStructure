@@ -1,4 +1,4 @@
-// linked listÀÇ Áß°£¿¡ ÀÖ´Â ³ëµå¸¦ Á¦°Å (Ã³À½°ú ¸¶Áö¸·Àº X)
+// ë‹¨ë°©í–¥ Linked List ì¤‘ê°„ë…¸ë“œ ì‚­ì œ in Java
 // https://www.youtube.com/watch?v=xI4iPEmkHlc
 class Node {
 	int data;
@@ -49,15 +49,14 @@ public class DeleteNode {
 		deleteNode(ll.get(3));
 		ll.retrieve(); // 1 -> 3 -> 5
 	}
-	// Áö¿ö¾ßÇÏ´Â ÇØ´ç ³ëµå¿¡¼­´Â ÀÌÀü ³ëµå¿¡ ¹æ¹®ÇÒ ¼ö ¾øÀ¸¹Ç·Î
-	// Áö¿ö¾ßÇÒ ³ëµåÀÇ ´ÙÀ½ ³ëµåÀÇ data¿Í next¸¦ Áö¿ö¾ß ÇÒ ³ëµå¿¡ º¹»çÇÏ¿© Ã³¸®ÇÑ´Ù
+
 	private static boolean deleteNode(Node n) {
 		if (n == null || n.next == null) {
-			return false; // Á¦°Å ½ÇÆĞ
+			return false;
 		}
 		Node next = n.next;
 		n.data = next.data;
 		n.next = next.next;
-		return true; // Á¦°Å ¼º°ø
+		return true;
 	}
 }

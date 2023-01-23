@@ -1,6 +1,5 @@
-// ´Ü¹æÇâ linked list µÚºÎÅÍ ¼¼±â
+// ë‹¨ë°©í–¥ Linked List ë’¤ë¶€í„° ì„¸ê¸° in Java
 // https://www.youtube.com/watch?v=Vb24scNDAVg
-// ´Ü¹æÇâ linked listÀÇ ³¡¿¡¼­ k¹øÂ° ³ëµå¸¦ Ã£´Â ¾Ë°í¸®ÁòÀ» ±¸ÇöÇÏ½Ã¿À
 class Node {
 	int data;
 	Node next = null;
@@ -28,7 +27,7 @@ class LinkedList {
 		System.out.println(n.data);
 	}
 }
-class Reference{ // solution2¿¡¼­ countÀÇ Àü´ŞÀ» À§ÇÑ °´Ã¼ ¼±¾ğ
+class Reference{ // solution2ë¥¼ ìœ„í•œ ê°ì²´
 	public int count = 0;
 }
 
@@ -58,8 +57,7 @@ public class KthToLast {
 			System.out.print(found.data + " ");
 		} System.out.println(); // 4 3 2 1
 	}
-	// solution1 : list¸¦ ³¡±îÁö ¼øÈ¸ÇÏ¿© ÀüÃ¼ ±æÀÌ¸¦ ±¸ÇÑ µÚ ´Ù½Ã header·Î µ¹¾Æ¿Í total - k¹øÂ° ³ëµåÀÇ °ªÀ» ¹İÈ¯ÇÏ´Â ¹æ½Ä
-	// ½Ã°£º¹Àâµµ O(N), °ø°£º¹Àâµµ O(1)
+	// solution1
 	private static Node KthToLast1(Node first, int k){
 		Node n = first;
 		int total = 1;
@@ -73,9 +71,7 @@ public class KthToLast {
 		}
 		return n;
 	}
-	// solution2 : Àç±Í È£ÃâÀ» »ç¿ëÇÏ¿© return µÉ¶§ count¸¦ Áõ°¡½ÃÅ°´Â ¹æ½Ä
-	// Node¸¦ ¹İÈ¯ÇÏ±â À§ÇØ count¸¦ °´Ã¼ ¾È¿¡ ³Ö¾î¼­ °´Ã¼ÀÇ ÁÖ¼Ò¸¦ Àü´Ş
-	// ½Ã°£º¹Àâµµ O(N), °ø°£º¹Àâµµ O(N)
+	// solution2
 	private static Node KthToLast2(Node n, int k, Reference r){
 		if (n == null) {
 			return null;
@@ -87,8 +83,7 @@ public class KthToLast {
 		}
 		return found;
 	}
-	// solution3 : 2°³ÀÇ Æ÷ÀÎÅÍ¸¦ È°¿ëÇÏ¿© p1ÀÌ p2º¸´Ù k¸¸Å­ ¾Õ¼­ °¡µµ·Ï ÇÏ´Â ¹æ½Ä
-	// ½Ã°£º¹Àâµµ O(N), °ø°£º¹Àâµµ O(1)
+	// solution3
 	private static Node KthToLast3(Node first, int k){
 		Node p1 = first;
 		Node p2 = first;

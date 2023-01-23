@@ -1,3 +1,5 @@
+// Queue구현하기 in Java
+// https://youtu.be/W3jNbNGyjMs
 import java.util.NoSuchElementException;
 
 class Queue<T>{

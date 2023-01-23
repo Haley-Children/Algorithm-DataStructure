@@ -1,4 +1,4 @@
-// Linked List È¸¹®Ã£±â(Palindrome) in Java
+// Linked List íšŒë¬¸ì°¾ê¸°(Palindrome) in Java
 // https://youtu.be/34zpNdrgnpA
 import java.util.Stack;
 
@@ -34,7 +34,7 @@ class LinkedList {
 		return n;
 	}
 }
-// solution3¿¡¼­ »ç¿ëÇÒ ³ëµå¿Í °á°ú¸¦ º¸°üÇÒ °´Ã¼
+// solution3ì„ ìœ„í•œ ê°ì²´
 class Storage{
 	public Node node;
 	public boolean result;
@@ -62,21 +62,21 @@ public class IsPalindrome {
 		System.out.println(isPalindrome2(l1.get(1))); // false
 		System.out.println(isPalindrome3(l1.get(1))); // false
 	}
-	// solution1 : LinkedList¸¦ °Å²Ù·Î Á¤·ÄÇÏ¿© ¿øº»°ú ºñ±³ÇÏ´Â ¹æ½Ä
+	// solution1
 	private static boolean isPalindrome1(Node head) {
-		Node reversed = reverseAndClone(head); // °Å²Ù·Î Á¤·ÄÇÏ´Â ÇÔ¼ö·Î reversed ³ëµå¸¦ ¼±¾ğ
-		return isEqual(head, reversed); // µÎ LinkedList°¡ °°ÀºÁö È®ÀÎÇÏ´Â ÇÔ¼öÀÇ °á°ú¸¦ ¸®ÅÏ
+		Node reversed = reverseAndClone(head);
+		return isEqual(head, reversed);
 	}
 	private static Node reverseAndClone(Node node){
-		Node head = null; // ¹İÈ¯ÇÒ »õ·Î¿î ³ëµå »ı¼º
-		while (node != null) { // ¿øº» ¸®½ºÆ®°¡ ³¡³¯¶§±îÁö
+		Node head = null;
+		while (node != null) { 
 			Node n = new Node();
-			n.data = node.data; // ¿øº» µ¥ÀÌÅÍ¸¦ ¹Ş¾Æ¼­
-			n.next = head; // Çìµå ³ëµåÀÇ ¾Õ¿¡ ºÙÀÌ±â
-			head = n; // ±×¸®°í Çìµå Æ÷ÀÎÅÍ¸¦ Ãß°¡µÈ ³ëµå·Î º¯°æ
-			node = node.next; // ´ÙÀ½ ³ëµå·Î ÀÌµ¿
+			n.data = node.data;
+			n.next = head;
+			head = n; 
+			node = node.next; 
 		}
-		return head; // °Å²Ù·Î Á¤·ÄµÈ ¸®½ºÆ®¸¦ ¹İÈ¯
+		return head;
 	}
 	private static boolean isEqual(Node one, Node two) {
 		while (one != null && two != null) {
@@ -84,12 +84,9 @@ public class IsPalindrome {
 			one = one.next;
 			two = two.next;
 		}
-		return one == null && two == null; // µÎ Linked List°¡ µ¿½Ã¿¡ ³¡³­ °æ¿ì¿¡¸¸ trueÀÌ¹Ç·Î ±æÀÌ È®ÀÎÇÏ¿© ¸®ÅÏ
+		return one == null && two == null;
 	}
-	// solution2 : µÎ °³ÀÇ Æ÷ÀÎÅÍ 'Åä³¢'¿Í '°ÅºÏÀÌ'¸¦ »ç¿ëÇÏ´Â ¹æ½Ä
-	// Åä³¢´Â ÇÑ¹ø¿¡ µÎÄ­, °ÅºÏÀÌ´Â ÇÑ¹ø¿¡ ÇÑÄ­¾¿ ÁøÇàÇÏ¿© Åä³¢°¡ ¸®½ºÆ®¿¡ ³¡¿¡ µµ´ŞÇÏ¸é °ÅºÏÀÌ°¡ ¸®½ºÆ®ÀÇ Áß°£¿¡ ÀÖ°Ô µÊ
-	// °ÅºÏÀÌ´Â ½ºÅÃ¿¡ µ¥ÀÌÅÍ¸¦ º¸°üÇÏ¸ç ÁøÇàÇÏ°í Áß°£ºÎÅÍ´Â ½ºÅÃ¿¡¼­ µ¥ÀÌÅÍ¸¦ ²¨³»¸ç ºñ±³
-	// ¸®½ºÆ® ÀüÃ¼ ±æÀÌ È¦/Â¦ °í·Á ÇÊ¿ä
+	// solution2 
 	private static boolean isPalindrome2(Node head) {
 		Node fast = head;
 		Node slow = head;
@@ -99,7 +96,7 @@ public class IsPalindrome {
 			slow = slow.next;
 			fast = fast.next.next;
 		}
-		if (fast != null) slow = slow.next; // ¸®½ºÆ®ÀÇ ±æÀÌ°¡ È¦¼öÀÎ °æ¿ì slow Æ÷ÀÎÅÍ¸¦ 1 Áõ°¡½ÃÅ´ (°¡¿îµ¥ ³ëµå ¹«½Ã)
+		if (fast != null) slow = slow.next;
 		while (slow != null) {
 			char c = stack.pop();
 			if (slow.data != c) return false;
@@ -107,13 +104,12 @@ public class IsPalindrome {
 		}
 		return true;
 	}
-	// solution3 : Àç±ÍÈ£ÃâÀ» ÀÌ¿ëÇÏ´Â ¹æ¹ı
+	// solution3
 	private static boolean isPalindrome3(Node head) {
 		int length = getListLength(head);
 		Storage storage = isPalindromeRecursive(head, length);
 		return storage.result;
 	}
-	// Linked ListÀÇ ±æÀÌ¸¦ ¹İÈ¯ÇÏ´Â ÇÔ¼ö
 	private static int getListLength(Node l) {
 		int total = 0;
 		while (l != null) {
@@ -122,16 +118,15 @@ public class IsPalindrome {
 		}
 		return total;
 	}
-	// Linked ListÀÇ ±æÀÌ¿Í ³ëµå ÁÖ¼Ò¸¦ ÀÎÀÚ·Î ¹Ş¾Æ¼­ storage °´Ã¼ÀÇ ÁÖ¼Ò¸¦ ¹İÈ¯
 	private static Storage isPalindromeRecursive(Node head, int length) {
-		if (head == null || length <= 0) return new Storage(head, true); // Â¦¼ö°³ÀÏ¶§
-		else if (length == 1) return new Storage(head.next, true); // È¦¼ö°³ÀÏ¶§
+		if (head == null || length <= 0) return new Storage(head, true); 
+		else if (length == 1) return new Storage(head.next, true);
 		
 		Storage storage = isPalindromeRecursive(head.next, length - 2);
 		
-		if (!storage.result || storage.node == null) return storage; // result°¡ ÇÏ³ª¶óµµ falseÀÌ¸é ´õ ºñ±³ÇÒ ÇÊ¿ä°¡ ¾øÀ¸¹Ç·Î ¹İÈ¯
+		if (!storage.result || storage.node == null) return storage; 
 		storage.result = (head.data == storage.node.data);
-		storage.node = storage.node.next; // storage ³ëµå´Â Á¤¹æÇâÀ¸·Î °è¼Ó ÁøÇà
+		storage.node = storage.node.next; 
 		return storage;
 	}
 }

@@ -1,4 +1,4 @@
-// linked list¸¦ Æ¯Á¤ °ª¿¡ µû¶ó ³ª´©¾î ¹èÄ¡ÇÏ±â
+// Linked List ê°’ì— ë”°ë¼ ë‚˜ëˆ„ê¸° in Java
 // https://www.youtube.com/watch?v=xufv1LUy42E
 class Node {
 	int data;
@@ -68,7 +68,7 @@ public class Partition {
 		}
 		System.out.println(n2.data); // 4 -> 3 -> 2 -> 7 -> 8 -> 5
 	}
-	// solution1 : ¿ŞÂÊ, ¿À¸¥ÂÊÀÇ ½ÃÀÛ°ú ³¡À» °¡¸®Å°´Â Æ÷ÀÎÅÍ 2°³¾¿ ÃÑ 4°³¸¦ »ç¿ëÇÏ´Â ¹æ¹ı
+	// solution1
 	private static Node Partition1(Node n, int x){
 		Node s1 = null;
 		Node e1 = null;
@@ -103,7 +103,7 @@ public class Partition {
 		e1.next = s2;
 		return s1;
 	}
-	// solution2 : head ¾Õ°ú tail µÚ¿¡ ³ëµå¸¦ ºÙÀÌ¸ç Æ÷ÀÎÅÍ¸¦ 2°³ »ç¿ëÇÏ´Â ¹æ¹ı
+	// solution2
 	private static Node Partition2(Node n, int x){
 		Node head = n;
 		Node tail = n;

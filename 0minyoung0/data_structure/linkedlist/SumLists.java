@@ -1,13 +1,5 @@
-// Linked List Digit ÇÕ»ê ¾Ë°í¸®Áò in Java
+// Linked List Digit í•©ì‚° ì•Œê³ ë¦¬ì¦˜ in Java
 // https://youtu.be/vuJk2JZd3fI
-// ¹®Á¦
-// ¾î¶² ¼ıÀÚ¸¦ ÀÚ¸®¼ö º°·Î ÇÑ°³¾¿ Linked List¿¡ ´ã¾Ò´Ù
-// ±×·±µ¥ 1ÀÇÀÚ¸®°¡ Çì´õ¿¡ ¿Àµµ·Ï °Å²Ù·Î ´ã¾Ò´Ù
-// ÀÌ·±½ÄÀÇ Linked List µÎ°³¸¦ ¹Ş¾Æ¼­ ÇÕ»êÇÏ°í, °°Àº ½ÄÀ¸·Î Linked List¿¡ ´ã¾Æ¼­ ¹İÈ¯ÇÏ¶ó
-// ¿¹½Ã) l1 : 9->1->4, l2 : 6->4->3, °á°ú : 5->6->7
-// ½ÉÈ­¹®Á¦
-// Linked ListÀÇ ¼ıÀÚ°¡ °Å²Ù·Î°¡ ¾Æ´Ï¶ó¸é?
-// ¿¹½Ã) l1 : 4->1->9, l2 : 3->4, °á°ú : 4->5->3
 class Node {
 	int data;
 	Node next = null;
@@ -40,7 +32,7 @@ class LinkedList {
 		return n;
 	}
 }
-// ½ÉÈ­ solutionÀ» À§ÇÑ ³ëµå¿Í carry¸¦ °¡Áö´Â °´Ã¼
+// solutionì„ ìœ„í•œ ê°ì²´
 class Storage{
 	int carry = 0;
 	Node result = null;
@@ -84,27 +76,25 @@ public class SumLists {
 		}
 		System.out.println(n2.data); // 1 -> 0 -> 2
 	}
-	// solution : Àç±ÍÈ£ÃâÀ» ÀÌ¿ëÇÑ ¹æ¹ı
+	// solution
 	private static Node sumLists1(Node l1, Node l2, int carry){
-		if (l1 == null && l2 == null && carry == 0) return null; // ´õÀÌ»ó °è»êÇÒ°Ô ¾øÀ¸¸é null ¹İÈ¯
-		Node result = new Node(); // °á°ú ³ëµå ¼±¾ğ
-		int value = carry; // ¿Ã¸²ÇÏ¿© ³Ñ¾î¿Â °ª carry¸¦ value¿¡ ºÎ¿©
+		if (l1 == null && l2 == null && carry == 0) return null;
+		Node result = new Node();
+		int value = carry;
 		
-		if (l1 != null) value += l1.data; // 1¹ø Linked ListÀÇ µ¥ÀÌÅÍ°¡ ÀÖ´Ù¸é value¿¡ ÇÕ»ê
-		if (l2 != null) value += l2.data; // 2¹ø Linked ListÀÇ µ¥ÀÌÅÍ°¡ ÀÖ´Ù¸é value¿¡ ÇÕ»ê
-		result.data = value % 10; // valueÀÇ 1ÀÇ ÀÚ¸®¸¦ resultÀÇ µ¥ÀÌÅÍ·Î ¼±¾ğ
+		if (l1 != null) value += l1.data;
+		if (l2 != null) value += l2.data;
+		result.data = value % 10;
 		
-		if (l1 != null || l2 != null) { // Àû¾îµµ ÇÏ³ªÀÇ Linked ListÀÇ µ¥ÀÌÅÍ°¡ ÀÖ´Ù¸é (´ÙÀ½ÀÚ¸® °è»êÀÌ ÇÊ¿äÇÏ´Ù¸é)
-			Node next = sumLists1(l1 == null? null : l1.next, // l1ÀÌ nullÀÌ ¾Æ´Ï¸é l1À» ´ÙÀ½ ³ëµå·Î
-											 l2 == null? null : l2.next, // l2°¡ nullÀÌ ¾Æ´Ï¸é l2¸¦ ´ÙÀ½ ³ëµå·Î
-											 value >= 10? 1 : 0);		 // value°¡ 10ÀÌ»óÀÌ¶ó¸é (ÀÚ¸®¼ö ¿Ã¸²ÀÌ ÀÖ´Ù¸é) carry¸¦ 1·Î
-																		 // ÇÏ´Â ÀÎÀÚ¸¦ °¡Áö´Â sumList1()¸¦ È£ÃâÇÏ¿© next ³ëµå¸¦ ¼±¾ğ
-			result.next = next; // resultÀÇ ´ÙÀ½ ³ëµå¸¦ next ³ëµå·Î ¼±¾ğ
+		if (l1 != null || l2 != null) {
+			Node next = sumLists1(l1 == null? null : l1.next,
+											 l2 == null? null : l2.next,
+											 value >= 10? 1 : 0);
+			result.next = next;
 		}
 		return result;
 	}
-	// ½ÉÈ­ solution : ±æÀÌ¸¦ ¿ì¼±ÀûÀ¸·Î ºñ±³ÇÑ ÈÄ ÂªÀº ¸®½ºÆ®ÀÇ ¾ÕÀ» 0À¸·Î Ã¤¿î µÚ µÚ¿¡¼­ºÎÅÍ °è»ê
-	// µÚ¿¡¼­ºÎÅÍ °è»êÇØ¾ßÇÏ¹Ç·Î °á°ú¸¦ °¡Áø ³ëµå¿Í carryÀÇ °ªÀ» °¡Áö´Â °´Ã¼¸¦ ¹İÈ¯ÇÏ´Â ÇüÅÂ·Î ±¸Çö
+	// ì‹¬í™” solution
 	private static Node sumLists2(Node l1, Node l2){
 		int len1 = getListLength(l1);
 		int len2 = getListLength(l2);
@@ -113,24 +103,21 @@ public class SumLists {
 		else l2 = LPadList(l2, len1 - len2);
 		
 		Storage storage = addLists(l1, l2);
-		// ¸®½ºÆ®ÀÇ ±æÀÌ¸¦ ³Ñ¾î°¬À½¿¡µµ carry°¡ ³²Àº °æ¿ì¸¦ ¿¹¿ÜÃ³¸® (¿¹½Ã : 91 + 10 = 101)
 		if (storage.carry != 0) storage.result = insertBefore(storage.result, storage.carry);
 		return storage.result;
 	}
-	// µÎ Linked ListÀÇ µ¡¼À ÈÄ storage¸¦ ¹İÈ¯ÇÏ´Â ÇÔ¼ö
 	private static Storage addLists(Node l1, Node l2) {
-		if (l1 == null && l2 == null) { // Á¾·áÁ¶°Ç
+		if (l1 == null && l2 == null) { 
 			Storage storage = new Storage();
 			return storage;
 		}
-		Storage storage = addLists(l1.next, l2.next); // Á¾·áÁ¶°Ç µÉ¶§±îÁö Âß È£ÃâÇØ¼­ µé¾î°¨
-		int value = storage.carry + l1.data + l2.data; // ÇØ´ç ÇÔ¼ö ³»¿¡¼­ÀÇ value °è»ê
-		int data = value % 10; // ÇØ´ç ÇÔ¼ö ³»¿¡¼­ÀÇ data °è»ê
-		storage.result = insertBefore(storage.result, data); // ±âÁ¸ÀÇ result ¾Õ¿¡ °è»êµÈ data¸¦ °¡Áö´Â ³ëµå Ãß°¡
-		storage.carry = value / 10; // carry´Â 10À¸·Î ³ª´« ¸ò
+		Storage storage = addLists(l1.next, l2.next);î°¨
+		int value = storage.carry + l1.data + l2.data; 
+		int data = value % 10; 
+		storage.result = insertBefore(storage.result, data); 
+		storage.carry = value / 10; 
 		return storage;
 	}
-	// Linked ListÀÇ ±æÀÌ¸¦ ¹İÈ¯ÇÏ´Â ÇÔ¼ö
 	private static int getListLength(Node l) {
 		int total = 0;
 		while (l != null) {
@@ -139,14 +126,12 @@ public class SumLists {
 		}
 		return total;
 	}
-	// Linked List ¾Õ¿¡ »õ·Î¿î ³ëµå¸¦ Ãß°¡ÇÏ´Â ÇÔ¼ö
 	private static Node insertBefore(Node node, int data){
 		Node before = new Node();
 		before.data = data;
 		if (node != null) before.next = node;
 		return before;
 	}
-	// ±æÀÌ¸¦ ¹Ş¾Æ¼­ ±æÀÌ¸¸Å­ Linked List ¾Õ¿¡ 0³ëµå¸¦ Ã¤¿öÁÖ´Â ÇÔ¼ö
 	private static Node LPadList(Node l, int length){
 		Node head = l;
 		for (int i = 0; i < length; i++) head = insertBefore(head, 0);
