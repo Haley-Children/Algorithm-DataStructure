@@ -34,7 +34,7 @@ public class Main_15650 {
             if (isUsed[i]==0) {
                 arr[k] = i;
                 isUsed[i]=1;
-                func(k+1, i+1); // 왜 start+1은 안되고 i+1은 될까?
+                func(k+1, i+1); // != (start+1) / depth와 같은 의미
                 isUsed[i]=0;
             }
         }

@@ -8,7 +8,7 @@ public class Main_15649 {
     static int[] arr; // 0 0 0 0
     static int[] isUsed; // 0 1 2 3 4
 
-    // arr 배열의 k번째 수까지 정해진 상태에서 나머지 수 구하기 -> 배열은 0부터 시작. 1번째 수는 index = 2
+    // arr 배열의 k번째 수까지 정해진 상태에서 나머지 수 구하기 -> 배열은 0부터 시작. 첫번째 수 => index = 0
     private static void func(int k) {
         if (k == m) {
             for (int i = 0; i < m; i++) {
