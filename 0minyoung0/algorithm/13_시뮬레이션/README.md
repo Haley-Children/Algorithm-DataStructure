@@ -7,5 +7,7 @@
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj18808.java)
 
 ## [BOJ 12100: 2048 (Easy)](https://www.acmicpc.net/problem/12100)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj12100.java)
 
 ## [BOJ 15686: 치킨 배달](https://www.acmicpc.net/problem/15686)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj15686.java)
