@@ -1,5 +1,9 @@
 // Linked List Digit 합산 알고리즘 in Java
 // https://youtu.be/vuJk2JZd3fI
+// (기본문제) 어떤 숫자를 일의 자리가 헤더에 오도록 거꾸로하여 자리수 별로 한개씩 Linked List에 담았다.
+// 이런 식의 Linked List 두개를 받아서 합산하고 같은 식으로 Linked List에 담아서 반환하는 알고리즘을 설명하시오.  
+// (심화문제) 위의 문제상황에서 두 숫자가 LinkedList에 똑바로 담겨있을 때 합산하고
+// 같은 식으로 Linked List에 담아서 반환하는 알고리즘을 설명하시오.
 class Node {
 	int data;
 	Node next = null;
@@ -76,7 +80,7 @@ public class SumLists {
 		}
 		System.out.println(n2.data); // 1 -> 0 -> 2
 	}
-	// solution
+	// solution : 앞에서부터 더하며 올림하여 계산
 	private static Node sumLists1(Node l1, Node l2, int carry){
 		if (l1 == null && l2 == null && carry == 0) return null;
 		Node result = new Node();
@@ -94,7 +98,8 @@ public class SumLists {
 		}
 		return result;
 	}
-	// 심화 solution
+	// 심화 solution : 리스트의 길이를 먼저 계산하여 짧은 리스트의 앞에 0 노드를 추가한다.
+	// 재귀적으로 마지막노드까지 접근하여 반환하며 아랫자리부터 계산한다.
 	private static Node sumLists2(Node l1, Node l2){
 		int len1 = getListLength(l1);
 		int len2 = getListLength(l2);
@@ -111,7 +116,7 @@ public class SumLists {
 			Storage storage = new Storage();
 			return storage;
 		}
-		Storage storage = addLists(l1.next, l2.next);
+		Storage storage = addLists(l1.next, l2.next);
 		int value = storage.carry + l1.data + l2.data; 
 		int data = value % 10; 
 		storage.result = insertBefore(storage.result, data); 

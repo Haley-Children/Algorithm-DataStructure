@@ -1,5 +1,7 @@
 // Linked List 교차점찾기 in Java
 // https://youtu.be/dk4oFGJx3ps
+// 주어진 두개의 단방향 Linked List에서 교차되는 노드를 찾으시오.
+// (단, 교차점은 값이 아닌 주소로 찾아야 함)
 import java.io.IOException;
 
 class Node {
@@ -72,7 +74,9 @@ public class GetIntersection {
 		if(m!=null) System.out.println("Intersection: " + m.data);
 		else System.out.println("Not found");
 	}
-	
+	// 두 리스트의 길이를 먼저 확인하여 끝을 맞춰준다.
+	// 긴 리스트의 앞에서 차이만큼 다음 노드로 진행하여
+	// 이후 두 리스트의 노드를 비교하고 다를 경우 다음 노드로 이동하면 된다.
 	private static Node getIntersection(Node l1, Node l2) {
 		int len1 = getListLength(l1);
 		int len2 = getListLength(l2);

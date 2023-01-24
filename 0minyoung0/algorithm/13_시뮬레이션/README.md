@@ -1,0 +1,44 @@
+# 시뮬레이션
+
+## [BOJ 15683: 감시](https://www.acmicpc.net/problem/15683)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj15683.java)
+
+## [BOJ 18808: 스티커 붙이기](https://www.acmicpc.net/problem/18808)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj18808.java)
+
+## [BOJ 12100: 2048 (Easy)](https://www.acmicpc.net/problem/12100)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj12100.java)
+
+## [BOJ 15686: 치킨 배달](https://www.acmicpc.net/problem/15686)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj15686.java)
+
+## [BOJ 11559: Puyo Puyo](https://www.acmicpc.net/problem/11559)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj11559.java)
+
+## [BOJ 14891: 톱니바퀴](https://www.acmicpc.net/problem/14891)
+
+## [BOJ 14499: 주사위 굴리기](https://www.acmicpc.net/problem/14499)
+
+## [BOJ 13335: 트럭](https://www.acmicpc.net/problem/13335)
+
+## [BOJ 16985: Maaaaaaaaaze](https://www.acmicpc.net/problem/16985)
+
+## [BOJ 14503: 로봇 청소기](https://www.acmicpc.net/problem/14503)
+
+## [BOJ 3190: 뱀](https://www.acmicpc.net/problem/3190)
+
+## [BOJ 14500: 테트로미노](https://www.acmicpc.net/problem/14500)
+
+## [BOJ 13460: 구슬 탈출 2](https://www.acmicpc.net/problem/13460)
+
+## [BOJ 14502: 연구소](https://www.acmicpc.net/problem/14502)
+
+## [BOJ 14888: 연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
+
+## [BOJ 14889: 스타트와 링크](https://www.acmicpc.net/problem/14889)
+
+## [BOJ 14890: 경사로](https://www.acmicpc.net/problem/14890)
+
+## [BOJ 15684: 사다리 조작](https://www.acmicpc.net/problem/15684)
+
+## [BOJ 15685: 드래곤 커브](https://www.acmicpc.net/problem/15685)
