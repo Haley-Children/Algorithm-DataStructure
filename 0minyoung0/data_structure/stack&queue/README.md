@@ -11,5 +11,6 @@
 ## [Set of Stacks](https://youtu.be/P_c_W5cZWwU)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/stack&queue/SetOfStacksTest.java)
 ## [두개의 Stack으로 Queue만들기](https://youtu.be/t45d7CgDaDM)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/stack&queue/MyQueueTest.java)
 ## [Stack 정렬하기](https://youtu.be/6-tsS9aBfzY)
 ## [LinkedList로 Queue구현하기](https://youtu.be/PkTKe_wUfUI)

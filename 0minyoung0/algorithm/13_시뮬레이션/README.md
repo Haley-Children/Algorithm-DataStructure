@@ -16,10 +16,13 @@
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj11559.java)
 
 ## [BOJ 14891: 톱니바퀴](https://www.acmicpc.net/problem/14891)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj14891.java)
 
 ## [BOJ 14499: 주사위 굴리기](https://www.acmicpc.net/problem/14499)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj14499.java)
 
 ## [BOJ 13335: 트럭](https://www.acmicpc.net/problem/13335)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj13335.java)
 
 ## [BOJ 16985: Maaaaaaaaaze](https://www.acmicpc.net/problem/16985)
 
