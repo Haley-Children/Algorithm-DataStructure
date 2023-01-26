@@ -2,7 +2,10 @@ package sort;
 
 import java.util.Arrays;
 
-// 머지 소트 (시간복잡도: O(N*logN))
+// 머지 소트
+// 시간복잡도: O(N*logN)
+// 추가적으로 필요한 공간(Overhead): O(N)
+// Stable Sort 여부: O
 public class MergeSort {
 
     static int n = 10;
