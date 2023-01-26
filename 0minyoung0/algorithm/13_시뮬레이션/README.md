@@ -25,8 +25,10 @@
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj13335.java)
 
 ## [BOJ 16985: Maaaaaaaaaze](https://www.acmicpc.net/problem/16985)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj16985.java)
 
 ## [BOJ 14503: 로봇 청소기](https://www.acmicpc.net/problem/14503)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj14503.java)
 
 ## [BOJ 3190: 뱀](https://www.acmicpc.net/problem/3190)
 
