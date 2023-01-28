@@ -31,12 +31,16 @@
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj14503.java)
 
 ## [BOJ 3190: 뱀](https://www.acmicpc.net/problem/3190)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj3190.java)
 
 ## [BOJ 14500: 테트로미노](https://www.acmicpc.net/problem/14500)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj14500.java)
 
 ## [BOJ 13460: 구슬 탈출 2](https://www.acmicpc.net/problem/13460)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj13460.java)
 
 ## [BOJ 14502: 연구소](https://www.acmicpc.net/problem/14502)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj14502.java)
 
 ## [BOJ 14888: 연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
 
