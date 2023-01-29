@@ -1,6 +1,8 @@
 # linkedlist
 
-## [Linked List 요약](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/linkedlist/LinkedList.md)
+## [Linked List 요약](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/linkedlist/LinkedListSummary.md)
+
+## [Linked List 예상 질문](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/linkedlist/LinkedListAnticipatedQuestions.md)
 
 ## [Linked List 개념](https://youtu.be/DzGnME1jIwY)
 
