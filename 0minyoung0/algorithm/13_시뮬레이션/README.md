@@ -43,11 +43,15 @@
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj14502.java)
 
 ## [BOJ 14888: 연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj14888.java)
 
 ## [BOJ 14889: 스타트와 링크](https://www.acmicpc.net/problem/14889)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj14889.java)
 
 ## [BOJ 14890: 경사로](https://www.acmicpc.net/problem/14890)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj14890.java)
 
 ## [BOJ 15684: 사다리 조작](https://www.acmicpc.net/problem/15684)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj15684.java)
 
 ## [BOJ 15685: 드래곤 커브](https://www.acmicpc.net/problem/15685)
