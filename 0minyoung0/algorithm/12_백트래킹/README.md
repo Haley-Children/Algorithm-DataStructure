@@ -44,3 +44,8 @@
 
 ## [BOJ 6603: 로또](https://www.acmicpc.net/problem/6603)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/12_백트래킹/Boj6603.java)
+
+## [BOJ 1941: 소문난 칠공주](https://www.acmicpc.net/problem/1941)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/12_백트래킹/Boj1941.java)
+
+## [BOJ 16987: 계란으로 계란치기](https://www.acmicpc.net/problem/16987)
