@@ -45,3 +45,4 @@
 ## [BOJ 13549: 숨바꼭질 3](https://www.acmicpc.net/problem/13549)
 
 ## [BOJ 1600: 말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj1600.java)
