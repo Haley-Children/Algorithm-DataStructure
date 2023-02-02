@@ -23,3 +23,6 @@
 
 ## [BOJ 2447: 별 찍기 - 10](https://www.acmicpc.net/problem/2447)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/11_재귀/Boj2447.java)
+
+## [BOJ 2448: 별 찍기 - 11](https://www.acmicpc.net/problem/2448)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/11_재귀/Boj2448.java)
