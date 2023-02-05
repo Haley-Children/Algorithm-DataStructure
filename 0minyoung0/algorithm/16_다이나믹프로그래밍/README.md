@@ -10,3 +10,38 @@
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj2579.java)
 
 ## [BOJ 1149: RGB거리](https://www.acmicpc.net/problem/1149)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj1149.java)
+
+## [BOJ 11726: 2×n 타일링](https://www.acmicpc.net/problem/11726)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj11726.java)
+
+## [BOJ 11659: 구간 합 구하기 4](https://www.acmicpc.net/problem/11659)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj11659.java)
+
+## [BOJ 12852: 1로 만들기 2](https://www.acmicpc.net/problem/12852)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj12852.java)
+
+## [BOJ 1003: 피보나치 함수](https://www.acmicpc.net/problem/1003)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj1003.java)
+
+## [BOJ 1932: 정수 삼각형](https://www.acmicpc.net/problem/1932)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj1932.java)
+
+## [BOJ 11727: 2×n 타일링 2](https://www.acmicpc.net/problem/11727)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj11727.java)
+
+## [BOJ 2193: 이친수](https://www.acmicpc.net/problem/2193)
+
+## [BOJ 1912: 연속합](https://www.acmicpc.net/problem/1912)
+
+## [BOJ 11055: 가장 큰 증가 부분 수열](https://www.acmicpc.net/problem/11055)
+
+## [BOJ 11053: 가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)
+
+## [BOJ 9461: 파도반 수열](https://www.acmicpc.net/problem/9461)
+
+## [BOJ 14501: 퇴사](https://www.acmicpc.net/problem/14501)
+
+## [BOJ 15486: 퇴사 2](https://www.acmicpc.net/problem/15486)
+
+## [BOJ 10844: 쉬운 계단 수](https://www.acmicpc.net/problem/10844)
