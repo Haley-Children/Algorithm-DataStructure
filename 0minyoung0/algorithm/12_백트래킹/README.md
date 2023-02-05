@@ -49,3 +49,4 @@
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/12_백트래킹/Boj1941.java)
 
 ## [BOJ 16987: 계란으로 계란치기](https://www.acmicpc.net/problem/16987)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/12_백트래킹/Boj16987.java)
