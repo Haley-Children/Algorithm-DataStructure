@@ -1,5 +1,5 @@
-package treeAndGraphs.dfsBfs;
-
+// Graph 검색 DFS, BFS 구현 in Java
+// https://youtu.be/_hxFgg7TLZQ
 import java.util.LinkedList;
 import java.util.Iterator;
 import java.util.Stack;
