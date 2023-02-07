@@ -7,3 +7,5 @@
 ## [0x0D_시뮬레이션](https://youtu.be/jZwf4OPlhtk)
 ## [0x0E_정렬 I](https://youtu.be/59fZkZO0Bo4)
 ## [0x0F_정렬 II](https://youtu.be/dq5t1woLJMw)
+## [0x10_다이나믹 프로그래밍](https://youtu.be/5leTtB3PQu0)
+## [0x11_그리디](https://youtu.be/De0Qg-2O80c)
