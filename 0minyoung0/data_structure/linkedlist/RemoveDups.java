@@ -1,18 +1,15 @@
-// Á¤·ÄµÇ¾î ÀÖÁö ¾ÊÀº linked listÀÇ Áßº¹µÇ´Â °ªÀ» Á¦°Å
+// Linked List ì¤‘ë³µê°’ ì‚­ì œ in Java
 // https://www.youtube.com/watch?v=Ce4baygLMz0
-// LinkedList Å¬·¡½º¾È¿¡ removeDups() ³»ºÎÇÔ¼ö·Î ¼±¾ğ
+// ì •ë ¬ë˜ì–´ ìˆì§€ ì•Šì€ LinkedListì˜ ì¤‘ë³µë˜ëŠ” ë°ì´í„°ë¥¼ ì œê±°í•˜ëŠ” í•¨ìˆ˜ (ë²„í¼ ì‚¬ìš© X)
+class Node {
+	int data;
+	Node next = null;
+}
 class LinkedList {
 	Node header;
-	
-	static class Node {
-		int data;
-		Node next = null;
-	}
-	
 	LinkedList() {
 		header = new Node();
 	}
-	
 	void append(int d) {
 		Node end = new Node();
 		end.data = d;
@@ -22,18 +19,6 @@ class LinkedList {
 		}
 		n.next = end;
 	}
-	
-	void delete(int d) {
-		Node n = header;
-		while (n.next != null) {
-			if (n.next.data == d) {
-				n.next = n.next.next;
-			} else {
-				n = n.next;
-			}
-		}
-	}
-	
 	void retrieve() {
 		Node n = header.next;
 		while (n.next != null) {
@@ -42,19 +27,18 @@ class LinkedList {
 		}
 		System.out.println(n.data);
 	}
-	
-	void removeDups() {
+	void removeDups() { // í¬ì¸í„° ë‘ ê°œë¥¼ ì‚¬ìš©í•˜ì—¬ ì¤‘ë³µë˜ëŠ” ë…¸ë“œ ì œê±°
 		Node n = header;
-		while (n != null && n.next != null) { // ¸¶Áö¸· µÎ ³ëµå°¡ Áßº¹ÀÎ °æ¿ì¸¦ °í·ÁÇÏ¿© n != null Á¶°ÇÀÌ ÇÊ¿äÇÔ
-			Node r = n; // ·¯³ÊÀÇ ½ÃÀÛ À§Ä¡
-			while (r.next != null) { // ·¯³Ê´Â ¸¶Áö¸·¿¡¼­ µÎ ¹øÂ° ³ëµå±îÁö °¨
-				if (n.data == r.next.data) {
-					r.next = r.next.next;
-				} else {
-					r = r.next;
+		while (n != null && n.next != null) { // nì´ ê°€ë¦¬í‚¤ëŠ” ë…¸ë“œì™€ ë‹¤ìŒ ë…¸ë“œê°€ nullì´ ì•„ë‹Œ êµ¬ê°„ì—ì„œ
+			Node r = n; // nì´ ê°€ë¦¬í‚¤ëŠ” ë…¸ë“œë¶€í„° runnerë¥¼ ì¶œë°œì‹œí‚´
+			while (r.next != null) { // rì´ ê°€ë¦¬í‚¤ëŠ” ë‹¤ìŒ ë…¸ë“œê°€ nullì´ ì•„ë‹Œ êµ¬ê°„ì—ì„œ
+				if (n.data == r.next.data) { // nê³¼ rì˜ ë‹¤ìŒ ë…¸ë“œê°€ ê°™ë‹¤ë©´
+					r.next = r.next.next; // rì˜ ë‹¤ìŒ ë…¸ë“œë¥¼ ì œê±°
+				} else { // nê³¼ rì˜ ë‹¤ìŒ ë…¸ë“œê°€ ë‹¤ë¥´ë‹¤ë©´
+					r = r.next; // rì„ ë‹¤ìŒ ë…¸ë“œë¡œ ì§„í–‰
 				}
 			}
-			n = n.next;
+			n = n.next; // r í¬ì¸í„°ê°€ ëê¹Œì§€ ë„ë‹¬í–ˆë‹¤ë©´ nì„ ë‹¤ìŒ ë…¸ë“œë¡œ ì§„í–‰
 		}
 	}
 }

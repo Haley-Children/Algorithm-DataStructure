@@ -1,18 +1,15 @@
-// ´Ü¹æÇâ linked list µÚºÎÅÍ ¼¼±â
+// ë‹¨ë°©í–¥ Linked List ë’¤ë¶€í„° ì„¸ê¸° in Java
 // https://www.youtube.com/watch?v=Vb24scNDAVg
-// ´Ü¹æÇâ linked listÀÇ ³¡¿¡¼­ k¹øÂ° ³ëµå¸¦ Ã£´Â ¾Ë°í¸®ÁòÀ» ±¸ÇöÇÏ½Ã¿À
+// ë‹¨ë°©í–¥ LinkedListì˜ ë§ˆì§€ë§‰ì—ì„œ kë²ˆì§¸ ë…¸ë“œë¥¼ ì°¾ëŠ” ì•Œê³ ë¦¬ì¦˜ì„ ì„¤ëª…í•˜ì‹œì˜¤
+class Node {
+	int data;
+	Node next = null;
+}
 class LinkedList {
 	Node header;
-	
-	public class Node {
-		int data;
-		Node next = null;
-	}
-	
 	LinkedList() {
 		header = new Node();
-	}
-	
+	}	
 	void append(int d) {
 		Node end = new Node();
 		end.data = d;
@@ -22,18 +19,6 @@ class LinkedList {
 		}
 		n.next = end;
 	}
-	
-	void delete(int d) {
-		Node n = header;
-		while (n.next != null) {
-			if (n.next.data == d) {
-				n.next = n.next.next;
-			} else {
-				n = n.next;
-			}
-		}
-	}
-	
 	void retrieve() {
 		Node n = header.next;
 		while (n.next != null) {
@@ -43,8 +28,7 @@ class LinkedList {
 		System.out.println(n.data);
 	}
 }
-
-class Reference{ // solution2¿¡¼­ countÀÇ Àü´ŞÀ» À§ÇÑ °´Ã¼ ¼±¾ğ
+class Reference{ // solution2ì˜ ì¹´ìš´í„° ì €ì¥ì„ ìœ„í•œ ê°ì²´
 	public int count = 0;
 }
 
@@ -57,25 +41,30 @@ public class KthToLast {
 		ll.append(4);
 		ll.retrieve();
 		for (int k = 1; k <= 4; k++) {
-			LinkedList.Node kth = KthToLast1(ll.header, k);
+			Node kth = KthToLast1(ll.header, k);
 			System.out.println("Last k(" + k + ")th data is " + kth.data);
 		}
+		/*  Last k(1)th data is 4
+			Last k(2)th data is 3
+			Last k(3)th data is 2
+			Last k(4)th data is 1  */
 		for (int k = 1; k <= 4; k++) {
 			Reference r = new Reference();
-			LinkedList.Node found = KthToLast2(ll.header, k, r);
-			System.out.println(found.data);
-		}
+			Node found = KthToLast2(ll.header, k, r);
+			System.out.print(found.data + " ");
+		} System.out.println(); // 4 3 2 1
 		for (int k = 1 ; k <= 4; k++) {
-			LinkedList.Node found = KthToLast3(ll.header, k);
-			System.out.println(found.data);
-		}
+			Node found = KthToLast3(ll.header, k);
+			System.out.print(found.data + " ");
+		} System.out.println(); // 4 3 2 1
 	}
-	// solution1 : list¸¦ ³¡±îÁö ¼øÈ¸ÇÏ¿© ÀüÃ¼ ±æÀÌ¸¦ ±¸ÇÑ µÚ ´Ù½Ã header·Î µ¹¾Æ¿Í total - k¹øÂ° ³ëµåÀÇ °ªÀ» ¹İÈ¯ÇÏ´Â ¹æ½Ä
-	private static LinkedList.Node KthToLast1(LinkedList.Node first, int k){
-		LinkedList.Node n = first;
-		int total = 1;
+	// solution1 : ì²˜ìŒë¶€í„° ëê¹Œì§€ ì„¸ì–´ì„œ ì „ì²´ í¬ê¸°ë¥¼ êµ¬í•˜ê³  ë‹¤ì‹œ ì²˜ìŒë¶€í„° íƒìƒ‰
+	// ê³µê°„ë³µì¡ë„ O(1), ì‹œê°„ë³µì¡ë„ O(N)
+	private static Node KthToLast1(Node first, int k){
+		Node n = first;
+		int total = 1; // ì•„ë˜ whileë¬¸ì—ì„œ ë§ˆì§€ë§‰ ë…¸ë“œì— ë„ë‹¬í•˜ì§€ ì•Šê¸° ë•Œë¬¸ì— 1ì—ì„œ ì‹œì‘
 		while (n.next != null) {
-			total++;
+			total++; // ì „ì²´ ë…¸ë“œ ê°œìˆ˜ ì„¸ê¸°
 			n = n.next;
 		}
 		n = first;
@@ -84,31 +73,29 @@ public class KthToLast {
 		}
 		return n;
 	}
-	// solution2 : Àç±Í È£ÃâÀ» »ç¿ëÇÏ¿© return µÉ¶§ count¸¦ Áõ°¡½ÃÅ°´Â ¹æ½Ä
-	// Node¸¦ ¹İÈ¯ÇÏ±â À§ÇØ count¸¦ °´Ã¼ ¾È¿¡ ³Ö¾î¼­ °´Ã¼ÀÇ ÁÖ¼Ò¸¦ Àü´Ş
-	// ½Ã°£º¹Àâµµ O(N), °ø°£º¹Àâµµ O(N)
-	private static LinkedList.Node KthToLast2(LinkedList.Node n, int k, Reference r){
+	// solution2 : ì¬ê·€í˜¸ì¶œ
+	// ê³µê°„ë³µì¡ë„ O(N), ì‹œê°„ë³µì¡ë„ O(N)
+	private static Node KthToLast2(Node n, int k, Reference r){
 		if (n == null) {
 			return null;
 		}
-		LinkedList.Node found = KthToLast2(n.next, k, r);
-		r.count++;
-		if (r.count == k) {
-			return n;
+		Node found = KthToLast2(n.next, k, r); // nullì´ ë‚˜ì˜¬ë•Œê¹Œì§€ ì­‰ ë“¤ì–´ê°
+		r.count++; // ë°˜í™˜í•˜ê³  ë‚˜ì˜¬ë•Œë§ˆë‹¤ ë ˆí¼ëŸ°ìŠ¤ ê°ì²´ì˜ ì¹´ìš´í„°ë¥¼ ì¦ê°€ì‹œí‚´
+		if (r.count == k) { // ì¹´ìš´í„°ì™€ kê°€ ì¼ì¹˜í•˜ë©´
+			return n; // í•´ë‹¹ ë…¸ë“œë¥¼ ë°˜í™˜
 		}
-		return found;
+		return found; // ì¹´ìš´í„°ì™€ kê°€ ì¼ì¹˜í•˜ì§€ ì•Šìœ¼ë©´ ì´ë¯¸ ì°¾ì•„ì„œ ë°˜í™˜í•œ foundë¥¼ ë°˜í™˜ (ì°¾ê¸° ì „ì—ëŠ” null)
 	}
-	// solution3 : 2°³ÀÇ Æ÷ÀÎÅÍ¸¦ È°¿ëÇÏ¿© p1ÀÌ p2º¸´Ù k¸¸Å­ ¾Õ¼­ °¡µµ·Ï ÇÏ´Â ¹æ½Ä
-	// ½Ã°£º¹Àâµµ O(N), °ø°£º¹Àâµµ O(1)
-	private static LinkedList.Node KthToLast3(LinkedList.Node first, int k){
-		LinkedList.Node p1 = first;
-		LinkedList.Node p2 = first;
-		
+	// solution3 : í¬ì¸í„° ì‚¬ìš©
+	// p1ì„ kë§Œí¼ ë¨¼ì € ë³´ë‚´ê³  p1ê³¼ p2ë¥¼ ë™ì‹œì— ì´ë™í•˜ë‹¤ê°€ p1ì´ nullì— ë„ë‹¬í•˜ë©´ p2ì˜ ìœ„ì¹˜ë¥¼ ë°˜í™˜
+	// ê³µê°„ë³µì¡ë„ O(1), ì‹œê°„ë³µì¡ë„ O(N)
+	private static Node KthToLast3(Node first, int k){
+		Node p1 = first;
+		Node p2 = first;
 		for (int i = 0 ; i < k; i++) {
 			if (p1 == null) return null;
 			p1 = p1.next;
 		}
-		
 		while (p1 != null) {
 			p1 = p1.next;
 			p2 = p2.next;

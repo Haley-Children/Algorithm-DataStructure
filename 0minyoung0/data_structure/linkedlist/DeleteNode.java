@@ -1,11 +1,13 @@
-// linked listÀÇ Áß°£¿¡ ÀÖ´Â ³ëµå¸¦ Á¦°Å (Ã³À½°ú ¸¶Áö¸·Àº X)
+// ë‹¨ë°©í–¥ Linked List ì¤‘ê°„ë…¸ë“œ ì‚­ì œ in Java
 // https://www.youtube.com/watch?v=xI4iPEmkHlc
+// ë‹¨ë°©í–¥ Linked Listì—ì„œ ì¤‘ê°„ì— ìˆëŠ” ë…¸ë“œë¥¼ ì‚­ì œí•˜ì‹œì˜¤
+// (ë‹¨, ì²«ë²ˆì§¸ ë…¸ë“œê°€ ì–´ë”” ìˆëŠ”ì§€ ëª¨ë¥´ê³ , ì˜¤ì§ ì‚­ì œí•  ë…¸ë“œë§Œ ê°–ê³  ìˆë‹¤)
+class Node {
+	int data;
+	Node next = null;
+}
 class LinkedList {
 	Node header;
-	static class Node {
-		int data;
-		Node next = null;
-	}
 	LinkedList() {
 		header = new Node();
 	}
@@ -17,16 +19,6 @@ class LinkedList {
 			n = n.next;
 		}
 		n.next = end;
-	}
-	void delete(int d) {
-		Node n = header;
-		while (n.next != null) {
-			if (n.next.data == d) {
-				n.next = n.next.next;
-			} else {
-				n = n.next;
-			}
-		}
 	}
 	void retrieve() {
 		Node n = header.next;
@@ -59,15 +51,17 @@ public class DeleteNode {
 		deleteNode(ll.get(3));
 		ll.retrieve(); // 1 -> 3 -> 5
 	}
-	// Áö¿ö¾ßÇÏ´Â ÇØ´ç ³ëµå¿¡¼­´Â ÀÌÀü ³ëµå¿¡ ¹æ¹®ÇÒ ¼ö ¾øÀ¸¹Ç·Î
-	// Áö¿ö¾ßÇÒ ³ëµåÀÇ ´ÙÀ½ ³ëµåÀÇ data¿Í next¸¦ Áö¿ö¾ß ÇÒ ³ëµå¿¡ º¹»çÇÏ¿© Ã³¸®ÇÑ´Ù
-	private static boolean deleteNode(LinkedList.Node n) {
+	// ì‚­ì œí•  ë…¸ë“œì˜ ì´ì „ ë…¸ë“œì— ì ‘ê·¼í•  ìˆ˜ ì—†ìœ¼ë¯€ë¡œ ë°”ë¡œ ì‚­ì œí•  ìˆ˜ ì—†ë‹¤.
+	// ì‚­ì œí•  ë…¸ë“œì˜ ë‹¤ìŒ ë…¸ë“œë¥¼ ì‚­ì œí•  ë…¸ë“œì— ë³µì‚¬í•˜ê³  ì‚­ì œí•  ë…¸ë“œì˜ ë‹¤ìŒ ë…¸ë“œë¥¼ ì œê±°í•˜ë©´ ëœë‹¤.
+	// ì´ ê²½ìš° ì›ë˜ ì‚­ì œí•˜ë ¤ë˜ ë…¸ë“œì˜ next ì£¼ì†Œë¥¼ ë‹¤ë‹¤ìŒ ë…¸ë“œë¡œ ë°”ê¿”ì£¼ë©´ ëœë‹¤.
+	// ì¶”ê°€ë¡œ ì´ ë°©ë²•ì„ í†µí•´ì„œëŠ” í—¤ë” ë…¸ë“œì™€ ë§ˆì§€ë§‰ ë…¸ë“œë¥¼ ì§€ìš¸ ìˆ˜ ì—†ë‹¤.
+	private static boolean deleteNode(Node n) {
 		if (n == null || n.next == null) {
-			return false; // Á¦°Å ½ÇÆĞ
+			return false;
 		}
-		LinkedList.Node next = n.next;
+		Node next = n.next;
 		n.data = next.data;
 		n.next = next.next;
-		return true; // Á¦°Å ¼º°ø
+		return true;
 	}
 }

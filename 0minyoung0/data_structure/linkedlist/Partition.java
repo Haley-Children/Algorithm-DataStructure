@@ -1,11 +1,13 @@
-// linked list¸¦ Æ¯Á¤ °ª¿¡ µû¶ó ³ª´©¾î ¹èÄ¡ÇÏ±â
+// Linked List ê°’ì— ë”°ë¼ ë‚˜ëˆ„ê¸° in Java
 // https://www.youtube.com/watch?v=xufv1LUy42E
+// LinkedListì— ìˆëŠ” ë…¸ë“œë“¤ì„ ì…ë ¥ ë°›ì€ ê°’ì„ ê¸°ì¤€ìœ¼ë¡œ
+// ì‘ì€ ë…¸ë“œëŠ” ì™¼ìª½ìœ¼ë¡œ, í¬ê±°ë‚˜ ê°™ì€ ë…¸ë“œëŠ” ì˜¤ë¥¸ìª½ìœ¼ë¡œ ë‚˜ëˆ„ëŠ” ì•Œê³ ë¦¬ì¦˜ì„ ì„¤ëª…í•˜ì‹œì˜¤.
+class Node {
+	int data;
+	Node next = null;
+}
 class LinkedList {
 	Node header;
-	static class Node {
-		int data;
-		Node next = null;
-	}
 	LinkedList() {
 		header = new Node();
 	}
@@ -17,16 +19,6 @@ class LinkedList {
 			n = n.next;
 		}
 		n.next = end;
-	}
-	void delete(int d) {
-		Node n = header;
-		while (n.next != null) {
-			if (n.next.data == d) {
-				n.next = n.next.next;
-			} else {
-				n = n.next;
-			}
-		}
 	}
 	void retrieve() {
 		Node n = header.next;
@@ -53,14 +45,14 @@ public class Partition {
 		ll1.append(5);
 		ll1.append(3);
 		ll1.append(4);
-		ll1.retrieve();
+		ll1.retrieve(); // 7 -> 2 -> 8 -> 5 -> 3 -> 4
 		
-		LinkedList.Node n1 = Partition1(ll1.get(1), 5);
+		Node n1 = Partition1(ll1.get(1), 5);
 		while (n1.next != null) {
 			System.out.print(n1.data + " -> ");
 			n1 = n1.next;
 		}
-		System.out.println(n1.data);
+		System.out.println(n1.data); // 2 -> 3 -> 4 -> 7 -> 8 -> 5
 		
 		LinkedList ll2 = new LinkedList();
 		ll2.append(7);
@@ -69,24 +61,25 @@ public class Partition {
 		ll2.append(5);
 		ll2.append(3);
 		ll2.append(4);
-		ll2.retrieve();
+		ll2.retrieve(); // 7 -> 2 -> 8 -> 5 -> 3 -> 4
 		
-		LinkedList.Node n2 = Partition2(ll2.get(1), 5);
+		Node n2 = Partition2(ll2.get(1), 5);
 		while (n2.next != null) {
 			System.out.print(n2.data + " -> ");
 			n2 = n2.next;
 		}
-		System.out.println(n2.data);
+		System.out.println(n2.data); // 4 -> 3 -> 2 -> 7 -> 8 -> 5
 	}
-	// solution1 : ¿ŞÂÊ, ¿À¸¥ÂÊÀÇ ½ÃÀÛ°ú ³¡À» °¡¸®Å°´Â Æ÷ÀÎÅÍ 2°³¾¿ ÃÑ 4°³¸¦ »ç¿ëÇÏ´Â ¹æ¹ı
-	private static LinkedList.Node Partition1(LinkedList.Node n, int x){
-		LinkedList.Node s1 = null;
-		LinkedList.Node e1 = null;
-		LinkedList.Node s2 = null;
-		LinkedList.Node e2 = null;
+	// solution1 : í¬ì¸í„° 4ê°œë¥¼ ì‚¬ìš©í•œ ë°©ë²•
+	// s1ê³¼ e1ì€ ì™¼ìª½ ë¦¬ìŠ¤íŠ¸, s2ì™€ e2ëŠ” ì˜¤ë¥¸ìª½ ë¦¬ìŠ¤íŠ¸ì˜ ì²˜ìŒê³¼ ëì„ ë‚˜íƒ€ë‚¸ë‹¤.
+	private static Node Partition1(Node n, int x){
+		Node s1 = null;
+		Node e1 = null;
+		Node s2 = null;
+		Node e2 = null;
 		
 		while (n != null) {
-			LinkedList.Node next = n.next;
+			Node next = n.next;
 			n.next = null;
 			if (n.data < x) {
 				if (s1 == null) {
@@ -113,13 +106,14 @@ public class Partition {
 		e1.next = s2;
 		return s1;
 	}
-	// solution2 : head ¾Õ°ú tail µÚ¿¡ ³ëµå¸¦ ºÙÀÌ¸ç Æ÷ÀÎÅÍ¸¦ 2°³ »ç¿ëÇÏ´Â ¹æ¹ı
-	private static LinkedList.Node Partition2(LinkedList.Node n, int x){
-		LinkedList.Node head = n;
-		LinkedList.Node tail = n;
+	// solution2 :  ë¹ˆ ë¦¬ìŠ¤íŠ¸ì˜ ì•ì— ì‘ì€ ê°’ì„ ì¶”ê°€í•˜ë©´ì„œ head í¬ì¸í„°ë¥¼
+	// 				í°ê°’ì„ ë’¤ì— ì¶”ê°€í•˜ë©´ì„œ tail í¬ì¸í„°ë¥¼ ìœ„ì¹˜ì‹œí‚¨ë‹¤.
+	private static Node Partition2(Node n, int x){
+		Node head = n;
+		Node tail = n;
 		
 		while (n != null) {
-			LinkedList.Node next = n.next;
+			Node next = n.next;
 			if (n.data < x) {
 				n.next = head;
 				head = n;

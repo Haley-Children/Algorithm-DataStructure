@@ -1,19 +1,14 @@
-// Node class¸¦ °¨½Î´Â LinkedList Å¬·¡½º ±¸Çö
+// LinkedListNodeì˜ êµ¬í˜„ in Java
 // https://www.youtube.com/watch?v=IrXYr7T8u_s
-// header°¡ Ã¹¹øÂ° °ªÀÌ¸é¼­ µ¿½Ã¿¡ linked listÀÇ ´ëÇ¥ÀÌ±â ¶§¹®¿¡ ¹ß»ıÇÏ´Â ¹®Á¦¸¦ ¹æÁö
-// linked listÀÇ header¸¦ linked listÀÇ ½ÃÀÛÀ» ¾Ë¸®´Â ¿ëµµ·Î¸¸ »ç¿ë
+class Node {
+	int data;
+	Node next = null;
+}
 class LinkedList {
 	Node header;
-	
-	static class Node {
-		int data;
-		Node next = null;
-	}
-	
 	LinkedList() {
 		header = new Node();
 	}
-	
 	void append(int d) {
 		Node end = new Node();
 		end.data = d;
@@ -23,7 +18,6 @@ class LinkedList {
 		}
 		n.next = end;
 	}
-	
 	void delete(int d) {
 		Node n = header;
 		while (n.next != null) {
@@ -34,7 +28,6 @@ class LinkedList {
 			}
 		}
 	}
-	
 	void retrieve() {
 		Node n = header.next;
 		while (n.next != null) {

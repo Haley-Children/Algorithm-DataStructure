@@ -1,40 +1,36 @@
-// ´Ü¹æÇâ Linked List ±¸Çö in Java
+// ë‹¨ë°©í–¥ Linked List êµ¬í˜„ in Java
 // https://www.youtube.com/watch?v=C1SDkdPvQPA
 class Node {
 	int data;
 	Node next = null;
-	
-	Node(int d) { // ³ëµå¸¦ »ı¼ºÇÒ ¶§ data
+	Node(int d) {
 		this.data = d;
 	}
-	
-	void append(int d) { // boolean Å¸ÀÔÀ¸·Î ¼º°ø, ½ÇÆĞ È®ÀÎÇÏ´Â°Ô ´õ ÀÏ¹İÀû
-		Node end = new Node(d); // Ãß°¡ÇÒ ³ëµå
+	void append(int d) {
+		Node end = new Node(d);
 		Node n = this;
-		while (n.next != null) { // n = ¸¶Áö¸· ³ëµå°¡ µÉ¶§±îÁö
+		while (n.next != null) {
 			n = n.next;
 		}
-		n.next = end; // ¸¶Áö¸· ³ëµåÀÇ next¿¡ »õ·Î¿î ³ëµå(end)
+		n.next = end;
 	}
-	
-	void delete(int d) { // ÇöÀç ±¸Á¶¿¡¼­´Â Ã¹ ¹øÂ° ³ëµå¸¦ Áö¿ï ¼ö ¾øÀ½
-		Node n = this; // »èÁ¦ÇÒ °ª(d)À» Ã£±â À§ÇÑ ÀÓÀÇÀÇ Æ÷ÀÎÅÍ(n)
-		while (n.next != null) { // ¸¶Áö¸·¿¡¼­ µÎ¹øÂ° ³ëµå±îÁö µ¹¸é¼­
+	void delete(int d) {
+		Node n = this;
+		while (n.next != null) {
 			if (n.next.data == d) {
-				n.next = n.next.next; // °ªÀÌ dÀÎ ³ëµå »èÁ¦
+				n.next = n.next.next;
 			} else {
 				n = n.next;
 			}
 		}
 	}
-	
-	void retrieve() { // linked list¸¦ ¼øÈ¸ÇÏ¸é¼­ µ¥ÀÌÅÍ¸¦ Ãâ·Â
+	void retrieve() {
 		Node n = this;
-		while (n.next != null) { // ¸¶Áö¸·¿¡¼­ µÎ¹øÂ° ³ëµå±îÁö µ¹¸é¼­
+		while (n.next != null) {
 			System.out.print(n.data + " -> ");
 			n = n.next;
 		}
-		System.out.println(n.data); // ¸¶Áö¸· ³ëµå Ãâ·Â
+		System.out.println(n.data);
 	}
 }
 
@@ -49,6 +45,6 @@ public class SinglyLinkedList {
 		head.retrieve(); // 1 -> 3 -> 4
 		head.delete(3);
 		head.retrieve(); // 1 -> 4
-		// head.delete(1);Àº ÀÛµ¿ÇÏÁö ¾ÊÀ½ 
+		// head.delete(1);
 	}
 }
