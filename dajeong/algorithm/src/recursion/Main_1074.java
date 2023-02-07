@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+
 // Z - 사고과정 이해하고 나중에 다시 한번 풀어보기
 public class Main_1074 {
     static int n, r, c;
@@ -33,4 +34,5 @@ public class Main_1074 {
         order = new int[n][n];
         System.out.println(recur(n, r, c));
     }
+
 }

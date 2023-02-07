@@ -1,10 +1,11 @@
-package stack;
+package stack_queue;
 
 import java.util.EmptyStackException;
 
 /*
  * Stack 구현하기
  * LIFO
+ * cf. 거꾸로 정렬된 데이터를 꺼내고 싶을 때 유용하다
  */
 public class Stack<T> {
     class Node<T> {
