@@ -13,10 +13,13 @@
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/17_그리디/Boj1026.java)
 
 ## [BOJ 11399: ATM](https://www.acmicpc.net/problem/11399)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/17_그리디/Boj11399.java)
 
 ## [BOJ 2457: 공주님의 정원](https://www.acmicpc.net/problem/2457)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/17_그리디/Boj2457.java)
 
 ## [BOJ 1541: 잃어버린 괄호](https://www.acmicpc.net/problem/1541)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/17_그리디/Boj1541.java)
 
 ## [BOJ 11501: 주식](https://www.acmicpc.net/problem/11501)
 
