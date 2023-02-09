@@ -22,5 +22,10 @@
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/17_그리디/Boj1541.java)
 
 ## [BOJ 11501: 주식](https://www.acmicpc.net/problem/11501)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/17_그리디/Boj11501.java)
 
 ## [BOJ 1744: 수 묶기](https://www.acmicpc.net/problem/1744)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/17_그리디/Boj1744.java)
+
+## [BOJ 2170: 선 긋기](https://www.acmicpc.net/problem/2170)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/17_그리디/Boj2170.java)
