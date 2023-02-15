@@ -1,9 +1,11 @@
+package datastructure;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class BOJ_1406 {
+public class Main_1406 {
     // 커서의 왼쪽에 있는 문자들을 표현할 스택과
     // 오른쪽에 있는 문자들을 표현할 스택 2개를 이용
     public static void main(String[] args) throws Exception {
