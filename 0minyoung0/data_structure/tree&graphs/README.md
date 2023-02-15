@@ -18,4 +18,4 @@
 
 ## [이진트리를 레벨단위 리스트로 변형하기](https://youtu.be/Y9Ar9eerxQU) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/tree&graphs/BSTtoListTest.java)
 
-## [Tree의 Balance 확인하기](https://youtu.be/-m154rqFQng) [(코드)]()
+## [Tree의 Balance 확인하기](https://youtu.be/-m154rqFQng) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/tree&graphs/IsBalancedTest.java)
