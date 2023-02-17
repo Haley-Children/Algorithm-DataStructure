@@ -1,4 +1,4 @@
-package stack_queue_deque;
+package queue;
 
 import java.io.BufferedReader;
 import java.io.IOException;
