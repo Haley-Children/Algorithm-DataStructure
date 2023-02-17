@@ -30,6 +30,10 @@
 ## [BOJ 5427: 불](https://www.acmicpc.net/problem/5427)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj5427.java)
 
+## [BOJ 6593: 상범 빌딩](https://www.acmicpc.net/problem/6593)
+
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj6593.java)
+
 ## [BOJ 2206: 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj2206.java)
 
