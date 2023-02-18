@@ -30,10 +30,6 @@
 ## [BOJ 5427: 불](https://www.acmicpc.net/problem/5427)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj5427.java)
 
-## [BOJ 6593: 상범 빌딩](https://www.acmicpc.net/problem/6593)
-
-[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj6593.java)
-
 ## [BOJ 2206: 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj2206.java)
 
@@ -52,6 +48,11 @@
 ## [BOJ 1600: 말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj1600.java)
 
-## [BOJ 13913: 숨바꼭질 4](https://www.acmicpc.net/problem/13913)
+## [BOJ 6593: 상범 빌딩](https://www.acmicpc.net/problem/6593)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj6593.java)
 
+## [BOJ 13913: 숨바꼭질 4](https://www.acmicpc.net/problem/13913)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj13913.java)
+
+## [BOJ 14442: 벽 부수고 이동하기 2](https://www.acmicpc.net/problem/14442)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj14442.java)
