@@ -27,3 +27,5 @@
 ## 13 [Graph에 명시된 관계에 따라 데이타 뽑아오기](https://youtu.be/Lavp0cwnteA) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/tree&graphs/ProjectManagerTest.java)
 
 ## 14 [Tree에서 두노드의 첫번째 공통부모 찾기](https://youtu.be/VozLMFJQt3Q) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/tree&graphs/CommonAncestorTest.java)
+
+## 15 [이진검색트리를 만드는 모든 배열 찾기](https://youtu.be/r3iW552f-kk) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/tree&graphs/BSTtoArray.java)
