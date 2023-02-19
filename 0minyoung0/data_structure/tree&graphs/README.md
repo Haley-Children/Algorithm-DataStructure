@@ -21,3 +21,5 @@
 ## 10 [Tree의 Balance 확인하기](https://youtu.be/-m154rqFQng) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/tree&graphs/IsBalancedTest.java)
 
 ## 11 [주어진 트리가 이진검색트리인지 확인하기](https://youtu.be/zhhxBrtaOO0) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/tree&graphs/IsValidateBSTTest.java)
+
+## 12 [이진검색트리에서 다음노드 찾기 (inorder traverse)](https://youtu.be/6DIxzakjewQ) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/tree&graphs/FindNext.java)
