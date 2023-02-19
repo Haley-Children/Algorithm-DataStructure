@@ -25,3 +25,5 @@
 ## 12 [이진검색트리에서 다음노드 찾기 (inorder traverse)](https://youtu.be/6DIxzakjewQ) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/tree&graphs/FindNext.java)
 
 ## 13 [Graph에 명시된 관계에 따라 데이타 뽑아오기](https://youtu.be/Lavp0cwnteA) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/tree&graphs/ProjectManagerTest.java)
+
+## 14 [Tree에서 두노드의 첫번째 공통부모 찾기](https://youtu.be/VozLMFJQt3Q) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/tree&graphs/CommonAncestorTest.java)
