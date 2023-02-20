@@ -59,3 +59,6 @@
 
 ## [BOJ 16933: 벽 부수고 이동하기 3](https://www.acmicpc.net/problem/16933)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj16933.java)
+
+## [BOJ 16920: 확장 게임](https://www.acmicpc.net/problem/16920)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj16920.java)
