@@ -31,3 +31,5 @@
 ## 15 [이진검색트리를 만드는 모든 배열 찾기](https://youtu.be/r3iW552f-kk) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/tree&graphs/BSTtoArray.java)
 
 ## 16 [서브트리인지 확인하기](https://youtu.be/-oQaeT-JV0w) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/tree&graphs/ContainsTree.java)
+
+## 17 [이진트리에서 랜덤노드가져오기](https://youtu.be/fZP-MFKxdr8) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/tree&graphs/GetRandomNode.java)
