@@ -53,3 +53,6 @@
 
 ## [BOJ 1759: 암호 만들기](https://www.acmicpc.net/problem/1759)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/12_백트래킹/Boj1759.java)
+
+## [BOJ 18809: Gaaaaaaaaaarden](https://www.acmicpc.net/problem/18809)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/12_백트래킹/Boj18809.java)
