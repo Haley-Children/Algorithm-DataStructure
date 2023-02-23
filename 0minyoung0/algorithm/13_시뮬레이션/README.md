@@ -59,3 +59,6 @@
 
 ## [BOJ 17281: ⚾](https://www.acmicpc.net/problem/17281)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj17281.java)
+
+## [BOJ 5373: 큐빙](https://www.acmicpc.net/problem/5373)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj5373.java)
