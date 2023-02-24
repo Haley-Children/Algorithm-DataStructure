@@ -62,3 +62,6 @@
 
 ## [BOJ 5373: 큐빙](https://www.acmicpc.net/problem/5373)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj5373.java)
+
+## [BOJ 16234: 인구 이동](https://www.acmicpc.net/problem/16234)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj16234.java)
