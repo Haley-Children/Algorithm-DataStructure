@@ -65,3 +65,6 @@
 
 ## [BOJ 16234: 인구 이동](https://www.acmicpc.net/problem/16234)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj16234.java)
+
+## [BOJ 16235: 나무 재테크](https://www.acmicpc.net/problem/16235)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj16235.java)
