@@ -80,3 +80,6 @@
 
 ## [BOJ 17142: 연구소 3](https://www.acmicpc.net/problem/17142)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj17142.java)
+
+## [BOJ 17143: 낚시왕](https://www.acmicpc.net/problem/17143)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj17143.java)
