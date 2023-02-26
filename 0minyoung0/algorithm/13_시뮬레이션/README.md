@@ -71,3 +71,6 @@
 
 ## [BOJ 16236: 아기 상어](https://www.acmicpc.net/problem/16236)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj16236.java)
+
+## [BOJ 17140: 이차원 배열과 연산](https://www.acmicpc.net/problem/17140)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj17140.java)
