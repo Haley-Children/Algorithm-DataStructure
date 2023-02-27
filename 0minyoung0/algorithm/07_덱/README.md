@@ -8,3 +8,6 @@
 
 ## [BOJ 5430: AC](https://www.acmicpc.net/problem/5430)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/07_덱/Boj5430.java)
+
+## [BOJ 11003: 최솟값 찾기](https://www.acmicpc.net/problem/11003)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/07_덱/Boj11003.java)
