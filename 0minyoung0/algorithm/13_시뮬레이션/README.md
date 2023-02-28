@@ -89,3 +89,6 @@
 
 ## [BOJ 4991: 로봇 청소기](https://www.acmicpc.net/problem/4991)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj4991.java)
+
+## [BOJ 16986: 인싸들의 가위바위보](https://www.acmicpc.net/problem/16986)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj16986.java)
