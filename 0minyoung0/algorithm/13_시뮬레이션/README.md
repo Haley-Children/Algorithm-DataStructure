@@ -92,3 +92,6 @@
 
 ## [BOJ 16986: 인싸들의 가위바위보](https://www.acmicpc.net/problem/16986)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj16986.java)
+
+## [BOJ 17779: 게리맨더링 2](https://www.acmicpc.net/problem/17779)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj17779.java)
