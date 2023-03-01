@@ -104,3 +104,6 @@
 
 ## [BOJ 17825: 주사위 윷놀이](https://www.acmicpc.net/problem/17825)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj17825.java)
+
+## [BOJ 19235: 모노미노도미노](https://www.acmicpc.net/problem/19235)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj19235.java)
