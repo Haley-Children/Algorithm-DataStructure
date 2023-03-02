@@ -115,5 +115,7 @@
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj19236.java)
 
 ## [BOJ 17471: 게리맨더링](https://www.acmicpc.net/problem/17471)
-
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj17471.java)
+
+## [BOJ 19238: 스타트 택시](https://www.acmicpc.net/problem/19238)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj19238.java)
