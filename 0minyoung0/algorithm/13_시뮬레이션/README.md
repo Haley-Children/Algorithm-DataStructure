@@ -110,3 +110,6 @@
 
 ## [BOJ 20061: 모노미노도미노 2](https://www.acmicpc.net/problem/20061)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj20061.java)
+
+## [BOJ 19236: 청소년 상어](https://www.acmicpc.net/problem/19236)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj19236.java)
