@@ -119,3 +119,6 @@
 
 ## [BOJ 19238: 스타트 택시](https://www.acmicpc.net/problem/19238)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj19238.java)
+
+## [BOJ 20055: 컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj20055.java)
