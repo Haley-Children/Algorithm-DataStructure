@@ -125,3 +125,6 @@
 
 ## [BOJ 20056: 마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj20056.java)
+
+## [BOJ 20057: 마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj20057.java)
