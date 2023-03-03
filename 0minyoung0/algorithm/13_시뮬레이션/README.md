@@ -128,3 +128,6 @@
 
 ## [BOJ 20057: 마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj20057.java)
+
+## [BOJ 20058: 마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj20058.java)
