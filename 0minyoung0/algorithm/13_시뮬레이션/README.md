@@ -134,3 +134,6 @@
 
 ## [BOJ 20058: 마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj20058.java)
+
+## [BOJ 23289: 온풍기 안녕!](https://www.acmicpc.net/problem/23289)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj23289.java)
