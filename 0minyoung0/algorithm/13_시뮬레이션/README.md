@@ -117,9 +117,6 @@
 ## [BOJ 19237: 어른 상어](https://www.acmicpc.net/problem/19237)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj19237.java)
 
-## [BOJ 17471: 게리맨더링](https://www.acmicpc.net/problem/17471)
-[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj17471.java)
-
 ## [BOJ 19238: 스타트 택시](https://www.acmicpc.net/problem/19238)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj19238.java)
 
@@ -134,6 +131,12 @@
 
 ## [BOJ 20058: 마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj20058.java)
+
+## [BOJ 16637: 괄호 추가하기](https://www.acmicpc.net/problem/16637)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj16637.java)
+
+## [BOJ 17471: 게리맨더링](https://www.acmicpc.net/problem/17471)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj17471.java)
 
 ## [BOJ 23289: 온풍기 안녕!](https://www.acmicpc.net/problem/23289)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj23289.java)
