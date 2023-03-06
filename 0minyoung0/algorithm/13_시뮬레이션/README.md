@@ -86,3 +86,57 @@
 
 ## [BOJ 17144: 미세먼지 안녕!](https://www.acmicpc.net/problem/17144)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj17144.java)
+
+## [BOJ 4991: 로봇 청소기](https://www.acmicpc.net/problem/4991)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj4991.java)
+
+## [BOJ 16986: 인싸들의 가위바위보](https://www.acmicpc.net/problem/16986)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj16986.java)
+
+## [BOJ 17779: 게리맨더링 2](https://www.acmicpc.net/problem/17779)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj17779.java)
+
+## [BOJ 17837: 새로운 게임 2](https://www.acmicpc.net/problem/17837)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj17837.java)
+
+## [BOJ 17822: 원판 돌리기](https://www.acmicpc.net/problem/17822)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj17822.java)
+
+## [BOJ 17825: 주사위 윷놀이](https://www.acmicpc.net/problem/17825)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj17825.java)
+
+## [BOJ 19235: 모노미노도미노](https://www.acmicpc.net/problem/19235)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj19235.java)
+
+## [BOJ 20061: 모노미노도미노 2](https://www.acmicpc.net/problem/20061)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj20061.java)
+
+## [BOJ 19236: 청소년 상어](https://www.acmicpc.net/problem/19236)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj19236.java)
+
+## [BOJ 19237: 어른 상어](https://www.acmicpc.net/problem/19237)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj19237.java)
+
+## [BOJ 19238: 스타트 택시](https://www.acmicpc.net/problem/19238)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj19238.java)
+
+## [BOJ 20055: 컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj20055.java)
+
+## [BOJ 20056: 마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj20056.java)
+
+## [BOJ 20057: 마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj20057.java)
+
+## [BOJ 20058: 마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj20058.java)
+
+## [BOJ 16637: 괄호 추가하기](https://www.acmicpc.net/problem/16637)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj16637.java)
+
+## [BOJ 17471: 게리맨더링](https://www.acmicpc.net/problem/17471)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj17471.java)
+
+## [BOJ 23289: 온풍기 안녕!](https://www.acmicpc.net/problem/23289)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj23289.java)
