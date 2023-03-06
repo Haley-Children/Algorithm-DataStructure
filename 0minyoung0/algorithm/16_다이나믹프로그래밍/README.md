@@ -53,3 +53,6 @@
 
 ## [BOJ 10844: 쉬운 계단 수](https://www.acmicpc.net/problem/10844)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj10844.java)
+
+## [BOJ 9251: LCS](https://www.acmicpc.net/problem/9251)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj9251.java)
