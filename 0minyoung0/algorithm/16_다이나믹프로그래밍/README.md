@@ -56,3 +56,6 @@
 
 ## [BOJ 9251: LCS](https://www.acmicpc.net/problem/9251)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj9251.java)
+
+## [BOJ 1699: 제곱수의 합](https://www.acmicpc.net/problem/1699)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj1699.java)
