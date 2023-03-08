@@ -35,3 +35,6 @@
 
 ## [BOJ 1676: 팩토리얼 0의 개수](https://www.acmicpc.net/problem/1676)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj1676.java)
+
+## [BOJ 9613: GCD 합](https://www.acmicpc.net/problem/9613)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj9613.java)
