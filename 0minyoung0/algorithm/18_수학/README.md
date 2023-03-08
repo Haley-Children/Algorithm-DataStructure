@@ -20,3 +20,6 @@
 
 ## [BOJ 15894: 수학은 체육과목 입니다](https://www.acmicpc.net/problem/15894)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj15894.java)
+
+## [BOJ 4796: 캠핑](https://www.acmicpc.net/problem/4796)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj4796.java)
