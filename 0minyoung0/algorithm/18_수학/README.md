@@ -8,3 +8,6 @@
 
 ## [BOJ 11653: 소인수분해](https://www.acmicpc.net/problem/11653)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj11653.java)
+
+## [BOJ 6064: 카잉 달력](https://www.acmicpc.net/problem/6064)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj6064.java)
