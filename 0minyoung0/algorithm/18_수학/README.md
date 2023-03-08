@@ -23,3 +23,6 @@
 
 ## [BOJ 4796: 캠핑](https://www.acmicpc.net/problem/4796)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj4796.java)
+
+## [BOJ 2960: 에라토스테네스의 체](https://www.acmicpc.net/problem/2960)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj2960.java)
