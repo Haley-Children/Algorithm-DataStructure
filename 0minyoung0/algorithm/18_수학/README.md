@@ -17,3 +17,6 @@
 
 ## [BOJ 11051: 이항 계수 2](https://www.acmicpc.net/problem/11051)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj11051.java)
+
+## [BOJ 15894: 수학은 체육과목 입니다](https://www.acmicpc.net/problem/15894)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj15894.java)
