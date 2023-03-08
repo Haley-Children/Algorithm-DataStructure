@@ -32,3 +32,6 @@
 
 ## [BOJ 4948: 베르트랑 공준](https://www.acmicpc.net/problem/4948)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj4948.java)
+
+## [BOJ 1676: 팩토리얼 0의 개수](https://www.acmicpc.net/problem/1676)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj1676.java)
