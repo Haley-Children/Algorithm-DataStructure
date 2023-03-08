@@ -11,3 +11,6 @@
 
 ## [BOJ 6064: 카잉 달력](https://www.acmicpc.net/problem/6064)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj6064.java)
+
+## [BOJ 11050: 이항 계수 1](https://www.acmicpc.net/problem/11050)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj11050.java)
