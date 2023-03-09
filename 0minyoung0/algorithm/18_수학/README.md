@@ -41,3 +41,6 @@
 
 ## [BOJ 1476: 날짜 계산](https://www.acmicpc.net/problem/1476)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj1476.java)
+
+## [BOJ 1011: Fly me to the Alpha Centauri](https://www.acmicpc.net/problem/1011)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj1011.java)
