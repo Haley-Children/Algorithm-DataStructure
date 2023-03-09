@@ -59,3 +59,6 @@
 
 ## [BOJ 1699: 제곱수의 합](https://www.acmicpc.net/problem/1699)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj1699.java)
+
+## [BOJ 1915: 가장 큰 정사각형](https://www.acmicpc.net/problem/1915)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj1915.java)
