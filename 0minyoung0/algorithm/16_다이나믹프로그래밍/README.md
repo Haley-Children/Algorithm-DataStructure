@@ -68,3 +68,6 @@
 
 ## [BOJ 9655: 돌 게임](https://www.acmicpc.net/problem/9655)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj9655.java)
+
+## [BOJ 2011: 암호코드](https://www.acmicpc.net/problem/2011)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj2011.java)
