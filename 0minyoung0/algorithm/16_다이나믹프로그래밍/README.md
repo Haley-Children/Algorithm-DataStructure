@@ -65,3 +65,6 @@
 
 ## [BOJ 10942: 팰린드롬?](https://www.acmicpc.net/problem/10942)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj10942.java)
+
+## [BOJ 9655: 돌 게임](https://www.acmicpc.net/problem/9655)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj9655.java)
