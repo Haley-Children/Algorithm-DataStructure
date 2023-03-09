@@ -38,3 +38,6 @@
 
 ## [BOJ 9613: GCD 합](https://www.acmicpc.net/problem/9613)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj9613.java)
+
+## [BOJ 1476: 날짜 계산](https://www.acmicpc.net/problem/1476)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj1476.java)
