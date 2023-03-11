@@ -45,6 +45,9 @@
 ## [BOJ 1011: Fly me to the Alpha Centauri](https://www.acmicpc.net/problem/1011)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj1011.java)
 
+## [BOJ 1038: 감소하는 수](https://www.acmicpc.net/problem/1038)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj1038.java)
+
 ## [BOJ 1057: 토너먼트](https://www.acmicpc.net/problem/1057)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj1057.java)
 
