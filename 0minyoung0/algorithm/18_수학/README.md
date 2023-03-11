@@ -57,5 +57,8 @@
 ## [BOJ 1292: 쉽게 푸는 문제](https://www.acmicpc.net/problem/1292)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj1292.java)
 
+## [BOJ 1790: 수 이어 쓰기 2](https://www.acmicpc.net/problem/1790)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj1790.java)
+
 ## [BOJ 3036: 링](https://www.acmicpc.net/problem/3036)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj3036.java)
