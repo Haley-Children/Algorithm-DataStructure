@@ -51,6 +51,9 @@
 ## [BOJ 1057: 토너먼트](https://www.acmicpc.net/problem/1057)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj1057.java)
 
+## [BOJ 2004: 조합 0의 개수](https://www.acmicpc.net/problem/2004)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj2004.java)
+
 ## [BOJ 1292: 쉽게 푸는 문제](https://www.acmicpc.net/problem/1292)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/18_수학/Boj1292.java)
 
