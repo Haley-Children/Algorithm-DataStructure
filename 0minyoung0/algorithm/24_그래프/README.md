@@ -23,3 +23,6 @@
 
 ## [BOJ 2617: 구슬 찾기](https://www.acmicpc.net/problem/2617)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/24_그래프/Boj2617.java)
+
+## [BOJ 1043: 거짓말](https://www.acmicpc.net/problem/1043)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/24_그래프/Boj1043.java)
