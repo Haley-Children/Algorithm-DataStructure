@@ -14,3 +14,6 @@
 
 ## [BOJ 11403: 경로 찾기](https://www.acmicpc.net/problem/11403)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/24_그래프/Boj11403.java)
+
+## [BOJ 2660: 회장뽑기](https://www.acmicpc.net/problem/2660)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/24_그래프/Boj2660.java)
