@@ -18,3 +18,4 @@
 ## [0x12_수학](https://youtu.be/2RCJApSVxRI)
 
 ## [0x18_그래프](https://youtu.be/9iI6fuOLiLg)
+## [0x19_트리](https://youtu.be/nehRy6hAJsA)
