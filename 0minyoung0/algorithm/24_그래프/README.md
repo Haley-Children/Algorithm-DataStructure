@@ -8,3 +8,6 @@
 
 ## [BOJ 2606: 바이러스](https://www.acmicpc.net/problem/2606)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/24_그래프/Boj2606.java)
+
+## [BOJ 5567: 결혼식](https://www.acmicpc.net/problem/5567)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/24_그래프/Boj5567.java)
