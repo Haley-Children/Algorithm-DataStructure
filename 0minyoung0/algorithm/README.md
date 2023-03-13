@@ -1,5 +1,11 @@
 # algorithm
 
+## [0x03_배열](https://youtu.be/mBeyFsHqzHg)
+## [0x04_연결 리스트](https://youtu.be/C6MX5u7r72E)
+## [0x05_스택](https://youtu.be/0DsyCXIN7Wg)
+## [0x06_큐](https://youtu.be/D_fwSy5tRAY)
+## [0x07_덱](https://youtu.be/0mEzJ4S1d8o)
+## [0x08_스택의 활용(수식의 괄호 쌍)](https://youtu.be/cdjjk-ryPKc)
 ## [0x09_BFS](https://youtu.be/ftOmGdm95XI)
 ## [0x0A_DFS](https://youtu.be/93jy2yUYfVE)
 ## [0x0B_재귀](https://youtu.be/8vDDJm5EewM)

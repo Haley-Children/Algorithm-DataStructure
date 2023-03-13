@@ -55,3 +55,34 @@
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj15684.java)
 
 ## [BOJ 15685: 드래곤 커브](https://www.acmicpc.net/problem/15685)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj15685.java)
+
+## [BOJ 17281: ⚾](https://www.acmicpc.net/problem/17281)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj17281.java)
+
+## [BOJ 5373: 큐빙](https://www.acmicpc.net/problem/5373)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj5373.java)
+
+## [BOJ 16234: 인구 이동](https://www.acmicpc.net/problem/16234)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj16234.java)
+
+## [BOJ 16235: 나무 재테크](https://www.acmicpc.net/problem/16235)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj16235.java)
+
+## [BOJ 16236: 아기 상어](https://www.acmicpc.net/problem/16236)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj16236.java)
+
+## [BOJ 17140: 이차원 배열과 연산](https://www.acmicpc.net/problem/17140)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj17140.java)
+
+## [BOJ 17141: 연구소 2](https://www.acmicpc.net/problem/17141)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj17141.java)
+
+## [BOJ 17142: 연구소 3](https://www.acmicpc.net/problem/17142)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj17142.java)
+
+## [BOJ 17143: 낚시왕](https://www.acmicpc.net/problem/17143)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj17143.java)
+
+## [BOJ 17144: 미세먼지 안녕!](https://www.acmicpc.net/problem/17144)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/13_시뮬레이션/Boj17144.java)
