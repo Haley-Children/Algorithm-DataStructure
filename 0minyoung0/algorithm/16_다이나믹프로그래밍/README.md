@@ -53,3 +53,24 @@
 
 ## [BOJ 10844: 쉬운 계단 수](https://www.acmicpc.net/problem/10844)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj10844.java)
+
+## [BOJ 9251: LCS](https://www.acmicpc.net/problem/9251)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj9251.java)
+
+## [BOJ 1699: 제곱수의 합](https://www.acmicpc.net/problem/1699)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj1699.java)
+
+## [BOJ 9084: 동전](https://www.acmicpc.net/problem/9084)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj9084.java)
+
+## [BOJ 1915: 가장 큰 정사각형](https://www.acmicpc.net/problem/1915)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj1915.java)
+
+## [BOJ 10942: 팰린드롬?](https://www.acmicpc.net/problem/10942)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj10942.java)
+
+## [BOJ 9655: 돌 게임](https://www.acmicpc.net/problem/9655)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj9655.java)
+
+## [BOJ 2011: 암호코드](https://www.acmicpc.net/problem/2011)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/16_다이나믹프로그래밍/Boj2011.java)

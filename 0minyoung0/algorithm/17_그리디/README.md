@@ -29,3 +29,6 @@
 
 ## [BOJ 2170: 선 긋기](https://www.acmicpc.net/problem/2170)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/17_그리디/Boj2170.java)
+
+## [BOJ 1700: 멀티탭 스케줄링](https://www.acmicpc.net/problem/1700)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/17_그리디/Boj1700.java)
