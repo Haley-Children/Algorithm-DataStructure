@@ -20,3 +20,6 @@
 
 ## [BOJ 14267: 회사 문화 1](https://www.acmicpc.net/problem/14267)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/25_트리/Boj14267.java)
+
+## [BOJ 2250: 트리의 높이와 너비](https://www.acmicpc.net/problem/2250)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/25_트리/Boj2250.java)
