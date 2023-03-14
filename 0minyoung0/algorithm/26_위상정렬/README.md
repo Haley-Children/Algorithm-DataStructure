@@ -8,3 +8,6 @@
 
 ## [BOJ 21276: 계보 복원가 호석](https://www.acmicpc.net/problem/21276)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/26_위상정렬/Boj21276.java)
+
+## [BOJ 1766: 문제집](https://www.acmicpc.net/problem/1766)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/26_위상정렬/Boj1766.java)
