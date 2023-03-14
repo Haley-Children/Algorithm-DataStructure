@@ -14,3 +14,6 @@
 
 ## [BOJ 1240: 노드사이의 거리](https://www.acmicpc.net/problem/1240)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/25_트리/Boj1240.java)
+
+## [BOJ 20955: 민서의 응급 수술](https://www.acmicpc.net/problem/20955)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/25_트리/Boj20955.java)
