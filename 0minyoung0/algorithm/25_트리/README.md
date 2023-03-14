@@ -11,3 +11,6 @@
 
 ## [BOJ 15681: 트리와 쿼리](https://www.acmicpc.net/problem/15681)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/25_트리/Boj15681.java)
+
+## [BOJ 1240: 노드사이의 거리](https://www.acmicpc.net/problem/1240)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/25_트리/Boj1240.java)
