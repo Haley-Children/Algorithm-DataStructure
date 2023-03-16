@@ -38,3 +38,6 @@
 
 ## [BOJ 2473: 세 용액](https://www.acmicpc.net/problem/2473)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/19_이분탐색/Boj2473.java)
+
+## [BOJ 2110: 공유기 설치](https://www.acmicpc.net/problem/2110)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/19_이분탐색/Boj2110.java)
