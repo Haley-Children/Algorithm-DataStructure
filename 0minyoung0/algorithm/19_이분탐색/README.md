@@ -17,3 +17,6 @@
 
 ## [BOJ 10815: 숫자 카드](https://www.acmicpc.net/problem/10815)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/19_이분탐색/Boj10815.java)
+
+## [BOJ 1822: 차집합](https://www.acmicpc.net/problem/1822)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/19_이분탐색/Boj1822.java)
