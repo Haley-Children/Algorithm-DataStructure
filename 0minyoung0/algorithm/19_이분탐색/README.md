@@ -29,3 +29,6 @@
 
 ## [BOJ 18869: 멀티버스 Ⅱ](https://www.acmicpc.net/problem/18869)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/19_이분탐색/Boj18869.java)
+
+## [BOJ 2467: 용액](https://www.acmicpc.net/problem/2467)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/19_이분탐색/Boj2467.java)
