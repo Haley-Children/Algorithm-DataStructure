@@ -32,3 +32,6 @@
 
 ## [BOJ 2467: 용액](https://www.acmicpc.net/problem/2467)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/19_이분탐색/Boj2467.java)
+
+## [BOJ 3151: 합이 0](https://www.acmicpc.net/problem/3151)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/19_이분탐색/Boj3151.java)
