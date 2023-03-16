@@ -23,3 +23,6 @@
 
 ## [BOJ 16401: 과자 나눠주기](https://www.acmicpc.net/problem/16401)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/19_이분탐색/Boj16401.java)
+
+## [BOJ 2805: 나무 자르기](https://www.acmicpc.net/problem/2805)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/19_이분탐색/Boj2805.java)
