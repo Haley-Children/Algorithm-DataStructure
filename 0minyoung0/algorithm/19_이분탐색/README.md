@@ -26,3 +26,6 @@
 
 ## [BOJ 2805: 나무 자르기](https://www.acmicpc.net/problem/2805)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/19_이분탐색/Boj2805.java)
+
+## [BOJ 18869: 멀티버스 Ⅱ](https://www.acmicpc.net/problem/18869)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/19_이분탐색/Boj18869.java)
