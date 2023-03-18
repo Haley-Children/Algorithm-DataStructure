@@ -41,3 +41,6 @@
 
 ## [BOJ 2110: 공유기 설치](https://www.acmicpc.net/problem/2110)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/19_이분탐색/Boj2110.java)
+
+## [BOJ 7453: 합이 0인 네 정수](https://www.acmicpc.net/problem/7453)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/19_이분탐색/Boj7453.java)
