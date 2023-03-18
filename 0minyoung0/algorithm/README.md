@@ -21,3 +21,4 @@
 ## [0x18_그래프](https://youtu.be/9iI6fuOLiLg)
 ## [0x19_트리](https://youtu.be/nehRy6hAJsA)
 ## [0x1A_위상정렬](https://youtu.be/Th-gLZUrd04)
+## [0x1B_최소신장트리](https://youtu.be/4wA3bncb64E)
