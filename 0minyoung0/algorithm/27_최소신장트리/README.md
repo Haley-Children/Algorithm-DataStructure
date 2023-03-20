@@ -17,3 +17,6 @@
 
 ## [BOJ 13418: 학교 탐방하기](https://www.acmicpc.net/problem/13418)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/27_최소신장트리/Boj13418.java)
+
+## [BOJ 1774: 우주신과의 교감](https://www.acmicpc.net/problem/1774)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/27_최소신장트리/Boj1774.java)
