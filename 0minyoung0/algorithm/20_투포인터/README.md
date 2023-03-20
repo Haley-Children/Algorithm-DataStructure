@@ -11,3 +11,6 @@
 
 ## [BOJ 2003: 수들의 합 2](https://www.acmicpc.net/problem/2003)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/20_투포인터/Boj2003.java)
+
+## [BOJ 13144: List of Unique Numbers](https://www.acmicpc.net/problem/13144)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/20_투포인터/Boj13144.java)
