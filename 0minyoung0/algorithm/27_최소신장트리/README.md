@@ -14,3 +14,6 @@
 
 ## [BOJ 1647: 도시 분할 계획](https://www.acmicpc.net/problem/1647)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/27_최소신장트리/Boj1647.java)
+
+## [BOJ 13418: 학교 탐방하기](https://www.acmicpc.net/problem/13418)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/27_최소신장트리/Boj13418.java)
