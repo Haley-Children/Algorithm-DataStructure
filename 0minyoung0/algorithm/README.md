@@ -16,6 +16,9 @@
 ## [0x10_다이나믹 프로그래밍](https://youtu.be/5leTtB3PQu0)
 ## [0x11_그리디](https://youtu.be/De0Qg-2O80c)
 ## [0x12_수학](https://youtu.be/2RCJApSVxRI)
+## [0x13_이분탐색](https://youtu.be/3TkaOKHxHnI)
 
 ## [0x18_그래프](https://youtu.be/9iI6fuOLiLg)
 ## [0x19_트리](https://youtu.be/nehRy6hAJsA)
+## [0x1A_위상정렬](https://youtu.be/Th-gLZUrd04)
+## [0x1B_최소신장트리](https://youtu.be/4wA3bncb64E)
