@@ -20,3 +20,6 @@
 
 ## [BOJ 1774: 우주신과의 교감](https://www.acmicpc.net/problem/1774)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/27_최소신장트리/Boj1774.java)
+
+## [BOJ 10423: 전기가 부족해](https://www.acmicpc.net/problem/10423)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/27_최소신장트리/Boj10423.java)
