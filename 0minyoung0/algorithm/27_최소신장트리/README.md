@@ -8,3 +8,6 @@
 
 ## [BOJ 9372: 상근이의 여행](https://www.acmicpc.net/problem/9372)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/27_최소신장트리/Boj9372.java)
+
+## [BOJ 16398: 행성 연결](https://www.acmicpc.net/problem/16398)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/27_최소신장트리/Boj16398.java)
