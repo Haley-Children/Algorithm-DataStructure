@@ -20,3 +20,6 @@
 
 ## [BOJ 2531: 회전 초밥](https://www.acmicpc.net/problem/2531)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/20_투포인터/Boj2531.java)
+
+## [BOJ 20922: 겹치는 건 싫어](https://www.acmicpc.net/problem/20922)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/20_투포인터/Boj20922.java)
