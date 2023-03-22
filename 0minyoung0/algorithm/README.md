@@ -17,9 +17,10 @@
 ## [0x11_그리디](https://youtu.be/De0Qg-2O80c)
 ## [0x12_수학](https://youtu.be/2RCJApSVxRI)
 ## [0x13_이분탐색](https://youtu.be/3TkaOKHxHnI)
-## [0x14_투포인터](https://youtu.be/I_0aAKzu0m8)
+## [0x14_투 포인터](https://youtu.be/I_0aAKzu0m8)
 
 ## [0x18_그래프](https://youtu.be/9iI6fuOLiLg)
 ## [0x19_트리](https://youtu.be/nehRy6hAJsA)
-## [0x1A_위상정렬](https://youtu.be/Th-gLZUrd04)
-## [0x1B_최소신장트리](https://youtu.be/4wA3bncb64E)
+## [0x1A_위상 정렬](https://youtu.be/Th-gLZUrd04)
+## [0x1B_최소 신장 트리](https://youtu.be/4wA3bncb64E)
+## [0x1C_플로이드 알고리즘](https://youtu.be/dDDy2bEZRA8)
