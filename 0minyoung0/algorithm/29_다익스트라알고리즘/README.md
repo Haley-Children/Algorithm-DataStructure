@@ -8,3 +8,6 @@
 
 ## [BOJ 1238: 파티](https://www.acmicpc.net/problem/1238)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/29_다익스트라알고리즘/Boj1238.java)
+
+## [BOJ 1504: 특정한 최단 경로](https://www.acmicpc.net/problem/1504)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/29_다익스트라알고리즘/Boj1504.java)
