@@ -17,3 +17,6 @@
 
 ## [BOJ 22862: 가장 긴 짝수 연속한 부분 수열 (large)](https://www.acmicpc.net/problem/22862)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/20_투포인터/Boj22862.java)
+
+## [BOJ 2531: 회전 초밥](https://www.acmicpc.net/problem/2531)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/20_투포인터/Boj2531.java)
