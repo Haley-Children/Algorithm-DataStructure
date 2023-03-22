@@ -18,6 +18,7 @@
 ## [0x12_수학](https://youtu.be/2RCJApSVxRI)
 ## [0x13_이분탐색](https://youtu.be/3TkaOKHxHnI)
 ## [0x14_투 포인터](https://youtu.be/I_0aAKzu0m8)
+## [0x15_해시](https://youtu.be/1-k-D2AYY0I)
 
 ## [0x18_그래프](https://youtu.be/9iI6fuOLiLg)
 ## [0x19_트리](https://youtu.be/nehRy6hAJsA)
