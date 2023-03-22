@@ -11,3 +11,6 @@
 
 ## [BOJ 1504: 특정한 최단 경로](https://www.acmicpc.net/problem/1504)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/29_다익스트라알고리즘/Boj1504.java)
+
+## [BOJ 1261: 알고스팟](https://www.acmicpc.net/problem/1261)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/29_다익스트라알고리즘/Boj1261.java)
