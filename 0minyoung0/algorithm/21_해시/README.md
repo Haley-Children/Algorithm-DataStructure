@@ -17,3 +17,6 @@
 
 ## [BOJ 20166: 문자열 지옥에 빠진 호석](https://www.acmicpc.net/problem/20166)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/21_해시/Boj20166.java)
+
+## [BOJ 1351: 무한 수열](https://www.acmicpc.net/problem/1351)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/21_해시/Boj1351.java)
