@@ -14,3 +14,6 @@
 
 ## [BOJ 21944: 문제 추천 시스템 Version 2](https://www.acmicpc.net/problem/21944)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/22_이진검색트리/Boj21944.java)
+
+## [BOJ 19700: 수업](https://www.acmicpc.net/problem/19700)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/22_이진검색트리/Boj19700.java)
