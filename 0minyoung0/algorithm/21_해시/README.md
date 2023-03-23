@@ -14,3 +14,6 @@
 
 ## [BOJ 9375: 패션왕 신해빈](https://www.acmicpc.net/problem/9375)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/21_해시/Boj9375.java)
+
+## [BOJ 20166: 문자열 지옥에 빠진 호석](https://www.acmicpc.net/problem/20166)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/21_해시/Boj20166.java)
