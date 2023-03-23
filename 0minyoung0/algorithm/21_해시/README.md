@@ -11,3 +11,6 @@
 
 ## [BOJ 17219: 비밀번호 찾기](https://www.acmicpc.net/problem/17219)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/21_해시/Boj17219.java)
+
+## [BOJ 9375: 패션왕 신해빈](https://www.acmicpc.net/problem/9375)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/21_해시/Boj9375.java)
