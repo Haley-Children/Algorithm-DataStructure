@@ -8,3 +8,6 @@
 
 ## [BOJ 1927: 최소 힙](https://www.acmicpc.net/problem/1927)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/23_우선순위큐/Boj1927.java)
+
+## [BOJ 2075: N번째 큰 수](https://www.acmicpc.net/problem/2075)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/23_우선순위큐/Boj2075.java)
