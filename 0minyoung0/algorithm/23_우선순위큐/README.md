@@ -2,3 +2,6 @@
 
 ## [BOJ 11286: 절대값 힙](https://www.acmicpc.net/problem/11286)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/23_우선순위큐/Boj11286.java)
+
+## [BOJ 1715: 카드 정렬하기](https://www.acmicpc.net/problem/1715)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/23_우선순위큐/Boj1715.java)
