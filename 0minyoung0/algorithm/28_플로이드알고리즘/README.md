@@ -17,3 +17,6 @@
 
 ## [BOJ 11562: 백양로 브레이크](https://www.acmicpc.net/problem/11562)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/28_플로이드알고리즘/Boj11562.java)
+
+## [BOJ 1507: 궁금한 민호](https://www.acmicpc.net/problem/1507)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/28_플로이드알고리즘/Boj1507.java)
