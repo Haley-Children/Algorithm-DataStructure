@@ -5,3 +5,6 @@
 
 ## [BOJ 1715: 카드 정렬하기](https://www.acmicpc.net/problem/1715)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/23_우선순위큐/Boj1715.java)
+
+## [BOJ 1927: 최소 힙](https://www.acmicpc.net/problem/1927)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/23_우선순위큐/Boj1927.java)
