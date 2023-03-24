@@ -20,3 +20,6 @@
 
 ## [BOJ 1507: 궁금한 민호](https://www.acmicpc.net/problem/1507)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/28_플로이드알고리즘/Boj1507.java)
+
+## [BOJ 1719: 택배](https://www.acmicpc.net/problem/1719)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/28_플로이드알고리즘/Boj1719.java)
