@@ -14,3 +14,6 @@
 
 ## [BOJ 1655: 가운데를 말해요](https://www.acmicpc.net/problem/1655)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/23_우선순위큐/Boj1655.java)
+
+## [BOJ 1781: 컵라면](https://www.acmicpc.net/problem/1781)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/23_우선순위큐/Boj1781.java)
