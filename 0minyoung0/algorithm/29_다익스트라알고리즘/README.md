@@ -14,3 +14,6 @@
 
 ## [BOJ 1261: 알고스팟](https://www.acmicpc.net/problem/1261)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/29_다익스트라알고리즘/Boj1261.java)
+
+## [BOJ 17835: 면접보는 승범이네](https://www.acmicpc.net/problem/17835)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/29_다익스트라알고리즘/Boj17835.java)
