@@ -27,3 +27,4 @@
 ## [0x1B_최소 신장 트리](https://youtu.be/4wA3bncb64E)
 ## [0x1C_플로이드 알고리즘](https://youtu.be/dDDy2bEZRA8)
 ## [0x1D_다익스트라 알고리즘](https://youtu.be/o9BnvwgPT-o)
+## [0x1E_KMP](https://youtu.be/9bkbV-VANQ0)
