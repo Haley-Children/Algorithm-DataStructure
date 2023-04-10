@@ -28,3 +28,4 @@
 ## [0x1C_플로이드 알고리즘](https://youtu.be/dDDy2bEZRA8)
 ## [0x1D_다익스트라 알고리즘](https://youtu.be/o9BnvwgPT-o)
 ## [0x1E_KMP](https://youtu.be/9bkbV-VANQ0)
+## [0x1F_트라이](https://youtu.be/ZmLe4tc5XRI)

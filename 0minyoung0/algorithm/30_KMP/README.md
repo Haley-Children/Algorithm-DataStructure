@@ -8,3 +8,6 @@
 
 ## [BOJ 1786: 찾기](https://www.acmicpc.net/problem/1786)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/30_KMP/Boj1786.java)
+
+## [BOJ 1893: 시저 암호](https://www.acmicpc.net/problem/1893)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/30_KMP/Boj1893.java)
