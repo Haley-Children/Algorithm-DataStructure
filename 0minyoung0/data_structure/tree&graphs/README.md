@@ -34,4 +34,4 @@
 
 ## 17 [이진트리에서 랜덤노드가져오기](https://youtu.be/fZP-MFKxdr8) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/tree&graphs/GetRandomNode.java)
 
-## 18 [트리에서 주어진값을 합산으로가지는 경로의 개수찾기](https://youtu.be/vJi7GrjbgeU) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/tree&graphs/.java)
+## 18 [트리에서 주어진값을 합산으로가지는 경로의 개수찾기](https://youtu.be/vJi7GrjbgeU) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/tree&graphs/CountPathWithSumN.java)
