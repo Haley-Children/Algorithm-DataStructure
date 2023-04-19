@@ -68,3 +68,6 @@
 
 ## [BOJ 17071: 숨바꼭질 5](https://www.acmicpc.net/problem/17071)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj17071.java)
+
+## [BOJ 9328: 열쇠](https://www.acmicpc.net/problem/9328)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj9328.java)
