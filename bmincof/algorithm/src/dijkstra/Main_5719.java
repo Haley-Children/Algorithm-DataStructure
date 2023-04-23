@@ -1,4 +1,4 @@
-package bst;
+package dijkstra;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
