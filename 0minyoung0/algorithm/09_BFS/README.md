@@ -65,3 +65,15 @@
 
 ## [BOJ 11967: 불켜기](https://www.acmicpc.net/problem/11967)
 [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj11967.java)
+
+## [BOJ 17071: 숨바꼭질 5](https://www.acmicpc.net/problem/17071)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj17071.java)
+
+## [BOJ 9328: 열쇠](https://www.acmicpc.net/problem/9328)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj9328.java)
+
+## [BOJ 3197: 백조의 호수](https://www.acmicpc.net/problem/3197)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj3197.java)
+
+## [BOJ 20304: 비밀번호 제작](https://www.acmicpc.net/problem/20304)
+[(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/algorithm/09_BFS/Boj20304.java)
