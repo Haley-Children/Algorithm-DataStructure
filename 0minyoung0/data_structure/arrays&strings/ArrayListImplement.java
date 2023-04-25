@@ -13,6 +13,8 @@ class ArrayList {
 		this.data = new Object[this.size];
 		this.index = 0;
 	}
+	// add : O(1)
+	// 단, doubling시 추가적인 시간 소요
 	public void add(Object obj) {
 		System.out.println("index: " + this.index + ", size: " + this.size +
 							", data size: " + this.data.length);
@@ -23,6 +25,7 @@ class ArrayList {
 		data[this.index] = obj;
 		this.index++;
 	}
+	// doubling : O(n)
 	private void doubling() {
 		this.size = this.size * 2;
 		Object[] newData = new Object[this.size];
@@ -33,6 +36,7 @@ class ArrayList {
 		System.out.println("*** index: " + this.index + ", size: " + this.size +
 							", data size: " + this.data.length);
 	}
+	// get : O(1)
 	public Object get(int i) throws Exception{
 		if(i > this.index-1) {
 			throw new Exception("ArrayIndexOutOfBound");
