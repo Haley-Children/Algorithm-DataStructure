@@ -9,3 +9,5 @@
 ## 04 [문자열 안의 문자들이 고유한지 확인하기](https://youtu.be/xnGyjBptpZ4) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/CheckUnique.java)
 
 ## 05 [두개의 문자열이 서로 치환(Permutation)인지 알아내기](https://youtu.be/6I1L8oRl3FA) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/CheckPermutation.java)
+
+## 06 [문자열안의 공백을 URL엔코딩하기](https://youtu.be/O0kcgFtiSkU) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/URLifyImplement.java)
