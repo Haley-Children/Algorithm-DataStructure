@@ -13,3 +13,5 @@
 ## 06 [문자열안의 공백을 URL엔코딩하기](https://youtu.be/O0kcgFtiSkU) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/URLifyImplement.java)
 
 ## 07 [문자열이 회문(palindrome)의 치환(permutation)인지 확인하기](https://youtu.be/_3_580GhBYc) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/CheckPermutationOfPalindrome.java)
+
+## 08 [단한번만 편집된 문자열인지 알아내기](https://youtu.be/H3zeBMt_fmE) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/CheckOneAway.java)
