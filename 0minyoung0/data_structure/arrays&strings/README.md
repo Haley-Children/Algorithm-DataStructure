@@ -15,3 +15,5 @@
 ## 07 [문자열이 회문(palindrome)의 치환(permutation)인지 확인하기](https://youtu.be/_3_580GhBYc) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/CheckPermutationOfPalindrome.java)
 
 ## 08 [단한번만 편집된 문자열인지 알아내기](https://youtu.be/H3zeBMt_fmE) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/CheckOneAway.java)
+
+## 09 [문자열 압축(Compression)하기](https://youtu.be/BPEeI4uCMwg) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/StringCompression.java)
