@@ -19,3 +19,5 @@
 ## 09 [문자열 압축(Compression)하기](https://youtu.be/BPEeI4uCMwg) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/StringCompression.java)
 
 ## 10 [이미지 회전 알고리즘 - Rotate Matrix](https://youtu.be/Z6QwmMQYZr8) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/RotateMatrix.java)
+
+## 11 [이차원배열에서 0의 행과 열을 모두 0으로 바꾸기](https://youtu.be/Ww832sQH0c0) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/SetZeroToAllZero.java)
