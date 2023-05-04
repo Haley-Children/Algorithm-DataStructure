@@ -21,3 +21,5 @@
 ## 10 [이미지 회전 알고리즘 - Rotate Matrix](https://youtu.be/Z6QwmMQYZr8) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/RotateMatrix.java)
 
 ## 11 [이차원배열에서 0의 행과 열을 모두 0으로 바꾸기](https://youtu.be/Ww832sQH0c0) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/SetZeroToAllZero.java)
+
+## 12 [isSubstring()으로 문자열 회전여부 알아내기](https://youtu.be/mK1nPP413SA) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/IsRotation.java)
