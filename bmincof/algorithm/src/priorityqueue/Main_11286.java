@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-public class Main {
+public class Main_11286 {
 
 	public static void main(String args[]) throws IOException{
 		// 입력 값 처리
