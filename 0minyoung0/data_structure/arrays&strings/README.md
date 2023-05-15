@@ -11,3 +11,17 @@
 ## 05 [두개의 문자열이 서로 치환(Permutation)인지 알아내기](https://youtu.be/6I1L8oRl3FA) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/CheckPermutation.java)
 
 ## 06 [문자열안의 공백을 URL엔코딩하기](https://youtu.be/O0kcgFtiSkU) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/URLifyImplement.java)
+
+## 07 [문자열이 회문(palindrome)의 치환(permutation)인지 확인하기](https://youtu.be/_3_580GhBYc) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/CheckPermutationOfPalindrome.java)
+
+## 08 [단한번만 편집된 문자열인지 알아내기](https://youtu.be/H3zeBMt_fmE) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/CheckOneAway.java)
+
+## 09 [문자열 압축(Compression)하기](https://youtu.be/BPEeI4uCMwg) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/StringCompression.java)
+
+## 10 [이미지 회전 알고리즘 - Rotate Matrix](https://youtu.be/Z6QwmMQYZr8) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/RotateMatrix.java)
+
+## 11 [이차원배열에서 0의 행과 열을 모두 0으로 바꾸기](https://youtu.be/Ww832sQH0c0) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/SetZeroToAllZero.java)
+
+## 12 [isSubstring()으로 문자열 회전여부 알아내기](https://youtu.be/mK1nPP413SA) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/IsRotation.java)
+
+## 13 [LeetCode 1. Two Sum 설명 & 자바로 구현](https://youtu.be/FHphOv2mmIA) [(코드)](https://github.com/DJ-archive/Algorithm-DataStructure/blob/main/0minyoung0/data_structure/arrays&strings/TwoSum.java)
