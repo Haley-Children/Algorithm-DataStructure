@@ -13,6 +13,7 @@ public class boj_11328_Strfry {
         StringTokenizer st;
         StringBuilder sb = new StringBuilder();
 
+        // 배열 완전탐색으로 돌면서 찾으면 길이 다른 경우 조건 놓칠 수 없어서 더 좋은듯?
         for (int i = 0; i < N; i++) {
             st = new StringTokenizer(br.readLine());
             int[] arr = new int[27];
@@ -25,7 +26,7 @@ public class boj_11328_Strfry {
                 sb.append("Possible").append("\n");
                 continue;
             }
-            // 길이가 다르면 Impossible
+            // *** 길이가 다르면 Impossible
             if (a.length() != b.length()) {
                 sb.append("Impossible").append("\n");
                 continue;
